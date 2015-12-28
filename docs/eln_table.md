@@ -73,145 +73,53 @@ Type "=" and follow with a formula, for example "=10/5".
 ### Caculation with other cells
 Type "=" and use a cell’s column id and row id to represent a number or text. For example, the cell in row 1 and column A, can be referred to as "A1". To multiple a number in A1 by 5, type "=A1*5".
 ### [List of supported formulas](http://handsontable.github.io/ruleJS/)
-|      |     |
-|:-----|:----|
-|* ABS 	   |* BASE |
-|* ACCRINT |* BASE|
-|* ACOS | BASE |
-|* ACOSH | BASE |
-|* ACOTH | Base |
-|* AND | TEST |
-|* ARABIC | TEST 2 |
-|* ASIN
-|* ASINH
-|* ATAN
-|* ATAN2
-| ATANH
-| AVEDEV
-| AVERAGE
-| AVERAGEA
-| AVERAGEIF
-* BASE
-* BESSELI
-* BESSELJ
-* BESSELK
-* BESSELY
-* BETADIST
-* BETAINV
-* BIN2DEC
-* BIN2HEX
-* BIN2OCT
-* BINOMDIST
-* BINOMDISTRANGE
-* BINOMINV
-* BITAND
-* BITLSHIFT
-* BITOR
-* BITRSHIFT
-* BITXOR
-* CEILING
-* CEILINGMATH
-* CEILINGPRECISE
-* CHAR
-* CHISQDIST
-* CHISQINV
-* CODE
-* COMBIN
-* COMBINA
-* COMPLEX
-* CONCATENATE
-* CONFIDENCENORM
-* CONFIDENCET
-* CONVERT
-* CORREL
-* COS
-* COSH
-* COT
-* COTH
-* COUNT
-* COUNTA
-* COUNTBLANK
-* COUNTIF
-* COUNTIFS
-* COUNTIN
-* COUNTUNIQUE
-* COVARIANCEP
-* COVARIANCES
-* CSC
-* CSCH
-* CUMIPMT
-* CUMPRINC
-* DATE
-* DATEVALUE
-* DAY
-* DAYS
-* DAYS360
-* DB
-* DDB
-* DEC2BIN
-* DEC2HEX
-* DEC2OCT
-* DECIMAL
-* DEGREES
-* DELTA
-* DEVSQ
-* DOLLAR
-* DOLLARDE
-* DOLLARFR
-* E
-* EDATE
-* EFFECT
-* EOMONTH
-* ERF
-* ERFC
-* EVEN
-* EXACT
-* EXPONDIST
-* FALSE
-* FDIST
-* FINV
-* FISHER
-* FISHERINV
-* IF
-* INT
-* ISEVEN
-* ISODD
-* LN
-* LOG
-* LOG10
-* MAX
-* MAXA
-* MEDIAN
-* MIN
-* MINA
-* MOD
-* NOT
-* ODD
-* OR
-* PI
-* POWER
-* ROUND
-* ROUNDDOWN
-* ROUNDUP
-* SIN
-* SINH
-* SPLIT
-* SQRT
-* SQRTPI
-* SUM
-* SUMIF
-* SUMIFS
-* SUMPRODUCT
-* SUMSQ
-* SUMX2MY2
-* SUMX2PY2
-* SUMXMY2
-* TAN
-* TANH
-* TRUE
-* TRUNC
-* XOR
-* 
+|:---	---	|:---	---	|:---	---	|
+|	 ABS	|	 CONFIDENCET	|	 FALSE	|
+|	 ACCRINT	|	 CONVERT	|	 FDIST	|
+|	 ACOS	|	 CORREL	|	 FINV	|
+|	 ACOSH	|	 COS	|	 FISHER	|
+|	 ACOTH	|	 COSH	|	 FISHERINV	|
+|	 AND	|	 COT	|	 IF	|
+|	 ARABIC	|	 COTH	|	 INT	|
+|	 ASIN	|	 COUNT	|	 ISEVEN	|
+|	 ASINH	|	 COUNTA	|	 ISODD	|
+|	 ATAN	|	 COUNTBLANK	|	 LN	|
+|	 ATAN2	|	 COUNTIF	|	 LOG	|
+|	 ATANH	|	 COUNTIFS	|	 LOG10	|
+|	 AVEDEV	|	 COUNTIN	|	 MAX	|
+|	 AVERAGE	|	 COUNTUNIQUE	|	 MAXA	|
+|	 AVERAGEA	|	 COVARIANCEP	|	 MEDIAN	|
+|	 AVERAGEIF	|	 COVARIANCES	|	 MIN	|
+|	 BASE	|	 CSC	|	 MINA	|
+|	 BESSELI	|	 CSCH	|	 MOD	|
+|	 BESSELJ	|	 CUMIPMT	|	 NOT	|
+|	 BESSELK	|	 CUMPRINC	|	 ODD	|
+|	 BESSELY	|	 DATE	|	 OR	|
+|	 BETADIST	|	 DATEVALUE	|	 PI	|
+|	 BETAINV	|	 DAY	|	 POWER	|
+|	 BIN2DEC	|	 DAYS	|	 ROUND	|
+|	 BIN2HEX	|	 DAYS360	|	 ROUNDDOWN	|
+|	 BIN2OCT	|	 DB	|	 ROUNDUP	|
+|	 BINOMDIST	|	 DDB	|	 SIN	|
+|	 BINOMDISTRANGE	|	 DEC2BIN	|	 SINH	|
+|	 BINOMINV	|	 DEC2HEX	|	 SPLIT	|
+|	 BITAND	|	 DEC2OCT	|	 SQRT	|
+|	 BITLSHIFT	|	 DECIMAL	|	 SQRTPI	|
+|	 BITOR	|	 DEGREES	|	 SUM	|
+|	 BITRSHIFT	|	 DELTA	|	 SUMIF	|
+|	 BITXOR	|	 DEVSQ	|	 SUMIFS	|
+|	 CEILING	|	 DOLLAR	|	 SUMPRODUCT	|
+|	 CEILINGMATH	|	 DOLLARDE	|	 SUMSQ	|
+|	 CEILINGPRECISE	|	 DOLLARFR	|	 SUMX2MY2	|
+|	 CHAR	|	 E	|	 SUMX2PY2	|
+|	 CHISQDIST	|	 EDATE	|	 SUMXMY2	|
+|	 CHISQINV	|	 EFFECT	|	 TAN	|
+|	 CODE	|	 EOMONTH	|	 TANH	|
+|	 COMBIN	|	 ERF	|	 TRUE	|
+|	 COMBINA	|	 ERFC	|	 TRUNC	|
+|	 COMPLEX	|	 EVEN	|	 XOR	|
+|	 CONCATENATE	|	 EXACT	|		|
+|	 CONFIDENCENORM	|	 EXPONDIST	|		|
 
 * ABS
 * ACCRINT

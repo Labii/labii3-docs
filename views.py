@@ -55,6 +55,9 @@ def schema_docs(request,data):
 
 def docs_home(request):
 	data = {}
+	data["sections"] = Sections.objects.filter(dbname='docs_home',dbid=0).order_by("order")
+	data["eedit"] = es2s('false')
+	data["tlr_before_container"] = 'sections/view.html'
 	return schema_docs(request,data)
 
 def docs_page(request,filename):

@@ -1,12 +1,12 @@
 # Table
 
-Labii ELN support Excel-like table functionalities. A table can be edited at both Experiment-template and Experiment documents. Labii ELN tables also support formulas for simple caculations.
+Labii ELN supports Excel-like table functionality. A table can be edited in both Experiment-Templates and Experiment documents. Labii ELN tables also support formulas for simple calculations, see list of available formulas below.
 
 # Overview
 
 ![labii-eln-table-overview](https://labiiblog.files.wordpress.com/2015/12/labii-eln-table-overview.png)
 
-Labii ELN support two types of table views. Edit view (see the picture above) and read--only view.
+Labii ELN supports two types of table views: edit view (picture above), and read-only view.
 
 For editable view, one additional column serves as header and one addtioanl row is included. All other cells works exactly like Excel. Each cell also support a right click menu.
 

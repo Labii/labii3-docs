@@ -8,15 +8,15 @@ Labii ELN supports Excel-like table functionality. A table can be edited in both
 
 Labii ELN supports two types of table views: edit view (picture above), and read-only view.
 
-For editable view, one additional column serves as header and one addtioanl row is included. All other cells works exactly like Excel. Each cell also support a right click menu.
+For edit view, one additional column (header) and row are included. All other cells work exactly like in Excel. Each cell also supports a right-click menu consisting of:
 
 * Black font color: editable cell
 * Gray font folor: read only cell
 * Yellow background: formula
 
-![labii-eln-table-overview-readonly](https://labiiblog.files.wordpress.com/2015/12/labii-eln-table-overview-readonly.png)
+![labii-eln-table-overview-readonly "test caption"](https://labiiblog.files.wordpress.com/2015/12/labii-eln-table-overview-readonly.png)
 
-A read only table does not have any headers and the cell content can not been changed. See the picture above.
+A read-only table does not contain headers and cell content cannot been changed. See the picture above.
 
 # Insert a table
 

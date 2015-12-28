@@ -22,7 +22,7 @@ A read-only table does not contain headers and cell content cannot been changed 
 
 # Insert a table
 
-A table is inserted within the editor. Quickly insert a table by highlighting required columns and rows after clicking the table icon, or from the advanced table property by clicking the table icon and then “More”.
+A table is inserted within the editor. Quickly insert a table by highlighting required columns and rows after clicking the table icon, or from the advanced table property by clicking the table icon and then "More".
 
 ## Insert a table by selection of cells
 
@@ -67,14 +67,21 @@ Editing a table is just like in Excel; select a cell, type in any value, and the
 * Merge cells
 
 ### Added formula
+
 Labii ELN table uses the same formula functions from Excel. For example, to calculate 2 + 1, just type in "=2+1". See the next section for more details.
 
 # Table formula
+
 ### Numeric calculation
+
 Type "=" and follow with a formula, for example "=10/5".
+
 ### Caculation with other cells
+
 Type "=" and use a cell’s column id and row id to represent a number or text. For example, the cell in row 1 and column A, can be referred to as "A1". To multiple a number in A1 by 5, type "=A1*5".
+
 ### [List of supported formulas](http://handsontable.github.io/ruleJS/)
+
 | | | | | |
 |:------|:------|:------|:------|:------|
 | ABS| BINOMINV| COUNTIF| EDATE| OR|

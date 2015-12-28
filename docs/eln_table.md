@@ -76,7 +76,6 @@ Type "=" and follow with a formula, for example "=10/5".
 Type "=" and use a cell’s column id and row id to represent a number or text. For example, the cell in row 1 and column A, can be referred to as "A1". To multiple a number in A1 by 5, type "=A1*5".
 ### [List of supported formulas](http://handsontable.github.io/ruleJS/)
 
-|:------|:------|:------|:------|:------|
 | ABS| BINOMINV| COUNTIF| EDATE| OR|
 | ACCRINT| BITAND| COUNTIFS| EFFECT| PI|
 | ACOS| BITLSHIFT| COUNTIN| EOMONTH| POWER|

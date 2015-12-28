@@ -59,6 +59,7 @@ def docs_home(request):
 	data["sections"] = Sections.objects.filter(dbname='docs_home',dbid=0).order_by("order")
 	data["eedit"] = es2s('false')
 	data["tlr_content"] = 'docs/home.html'
+	data["fluid"] = 'true'
 	return schema_docs(request,data)
 
 def docs_page(request,filename):

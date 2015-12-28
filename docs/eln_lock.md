@@ -18,6 +18,7 @@ A locked document is a document without edit permissions. You can view, but cann
 
 * A yellow lock icon on document list
 ![labii-eln-locked-icon](https://labiiblog.files.wordpress.com/2015/12/labii-eln-locked-icon.png)
+
 * The document is locked from editing
 ![labii-eln-locked-noediting](https://labiiblog.files.wordpress.com/2015/12/labii-eln-locked-noediting.png)
 * Many relevent functions were disabled. See the table bellow.

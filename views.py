@@ -5,8 +5,9 @@ from django.core.urlresolvers import reverse, resolve
 from django.conf import settings
 from accounts.views import add_visiting_record
 from metrics.tasks import add_view_count
-from common.scripts import id2eid, writeIntoDB
+from common.scripts import id2eid, writeIntoDB, es2s
 from docs.models import *
+from sections.models import Sections
 
 def get_md(filename):
 	md = None
@@ -57,7 +58,7 @@ def docs_home(request):
 	data = {}
 	data["sections"] = Sections.objects.filter(dbname='docs_home',dbid=0).order_by("order")
 	data["eedit"] = es2s('false')
-	data["tlr_before_container"] = 'sections/view.html'
+	data["tlr_content"] = 'docs/home.html'
 	return schema_docs(request,data)
 
 def docs_page(request,filename):

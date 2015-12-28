@@ -44,7 +44,7 @@ A table is inserted within the editor. Quickly insert a table by highlighting re
 
 # Edit a table
 
-Editing a table is just like in Excel; select a cell, type in any value, and the table will be automatically updated.”
+Editing a table is just like in Excel; select a cell, type in any value, and the table will be automatically updated.
 
 ### Right click menu
 * Insert row above

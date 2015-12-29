@@ -13,7 +13,7 @@ For edit view, one additional column (header) and row are included. All other ce
 The format of each indicating:
 
 * Black font color: editable cell
-* Gray font folor: read only cell
+* Gray font color: read only cell
 * Yellow background: formula
 
 ![labii-eln-table-overview-readonly](https://labiiblog.files.wordpress.com/2015/12/labii-eln-table-overview-readonly.png)

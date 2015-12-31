@@ -13,7 +13,7 @@ For edit view, one additional column (header) and row are included. All other ce
 The format of each indicating:
 
 * Black font color: editable cell
-* Gray font folor: read only cell
+* Gray font color: read only cell
 * Yellow background: formula
 
 ![labii-eln-table-overview-readonly](https://labiiblog.files.wordpress.com/2015/12/labii-eln-table-overview-readonly.png)
@@ -76,7 +76,7 @@ Labii ELN table uses the same formula functions from Excel. For example, to calc
 
 Type "=" and follow with a formula, for example "=10/5".
 
-### Caculation with other cells
+### Calculation with other cells
 
 Type "=" and use a cell’s column id and row id to represent a number or text. For example, the cell in row 1 and column A, can be referred to as "A1". To multiple a number in A1 by 5, type "=A1*5".
 

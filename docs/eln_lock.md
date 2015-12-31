@@ -1,6 +1,10 @@
-# Lock document
+# Lock documents
 
 To prevent a finished ELN document from accidental changes, Labii's ELN provides a Lock function to lock or unlock a document.
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8GDUnxvZDL0?autoplay=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 # Overview
 

@@ -67,11 +67,11 @@ In list view, a privately shared document is indicated by a Private Shared Icon.
 
 ![labii-eln-sharing-to-others-readonly](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-to-others.png)
 
-The pictures of collaborators with access to the document are displayed after the document name, once the document is opened. 
+The pictures of collaborators with access to the document are displayed after the folder location and document name, once the document is opened. 
 
+![labii-eln-sharing-document-collaborators-readonly](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-document-collaborators.png)
 
-
-Shared Folders
+#Shared Folders
 A collection of folders shared with you is displayed in the “Shared Folders” section. Only folders that are shared with you are displayed, folders owned by you are displayed in the “My Folders” section.
 
 ![labii-eln-sharing-folders-list-readonly](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-folders-list.png)

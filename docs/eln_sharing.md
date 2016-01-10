@@ -18,13 +18,13 @@ Open the Experiment or Experiment-Template you wish to share and click on the �
 #Public Sharing
 The “Open to public” slider indicates whether or not everyone in the Labii community can see your Experiment or Experiment-Template (we strongly encourage making well-known protocols/procedures open to the public).
 
-*Public Folder
+* Public Folder
 Once a folder is public, it is searchable by the Labii community. These folders can also be subscribed to by others, similar to a Youtube channel; see section “Subscribing for more information”.
 
-*Public Experiment
+* Public Experiment
 When an Experiment has permissions set to “Public”, the document holds “View” permissions for anyone with a direct link to the Experiment (with a URL composed of appended random characters, similar to: https://www.labii.com/notes/view/page/xIWZ0x70x67fu1dXFRTN/kerp0x70x640U3WMJANh/). A public Experiment is read-only, and cannot been modified.
 
-*Public Experiment-Template
+* Public Experiment-Template
 When an Experiment-Template is has permissions set to “Public”, anyone can view the Experiment-Template with a direct link (with a URL composed of appended random characters, similar to: (https://www.labii.com/notes/view/page/VjCB0x70x67fkT96G3ya/YSz20x70x63f1qNNH25w/), and does not need to be logged in. A public Experiment-Template is read-only, and cannot been modified. These documents can be subscribed to, see section “Subscribing for more information”.
 
 Private Sharing

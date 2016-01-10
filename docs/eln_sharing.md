@@ -51,6 +51,7 @@ A public folder, document, Experiment, Experiment-Template .etc will be indicate
 ![labii-eln-sharing-public-readonly](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-public.png)
 
 A privately shared folder, document, Experiment, Experiment-Template .etc will be indicated with a Private Shared Icon appended to the name.
+
 ![labii-eln-sharing-to-others-readonly](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-to-others.png)
 
 Once a folder is clicked, the picture of each person with access to a folder will be displayed on top left.  The collaborator’s picture can be clicked to redirect you to their Labii profile.
@@ -85,7 +86,7 @@ To see a list of subscribable public folders, click the grid icon the right of �
 
 Public folders are displayed in a grid format. You can view the contents of a public colder by clicking “View”. To subscribe to a folder, click “Subscribe”. 
 
-![labii-eln-sharing-subscribing-to-folder-readonly](https://labiiblog.files.wordpress.com/2016/01/https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-subscribing-to-folder.png)
+![labii-eln-sharing-subscribing-to-folder-readonly](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-subscribing-to-folder.png)
 
 ##Experiment-Templates
 You can also subscribe to public Experiment-Templates. Click the “Public Experiment-Templates” menu item to to explore subscribable Experiment-Templates. 
@@ -97,4 +98,4 @@ Once you have found an Experiment-Template to subscribe to, click the “Subscri
 ![labii-eln-sharing-subscribing-readonly](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-subscribing.png)
 
 You will be notified of any changes Experiment-Templates you are subscribed to, via email.
-###*Subscribed Experiment-Templates are stored in…??... for easy cloning.*
+###*Subscribed Experiment-Templates are stored in... for easy cloning.*

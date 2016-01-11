@@ -52,7 +52,7 @@ Sharing a folder to individual collaborators is very similar to sharing document
 Sharing a document with a collaborator allows document owners to retain full control. Each collaborator is given "Edit" or "View" permissions. "Edit" permission lets collaborators add to, remove from, and even delete the document. "View" permissions lets collaborators see the document and its content, but not make any changes. 
 
 ##Adding a Collaborator
-To share a document with a new collaborator, type their email registered with Labii Inc. into the dialog window [shown above](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-dialog-box.png), select a permission setting, and click “Add”. The new collaborator will receive an email containing a direct link to the shared document.
+To share a document with a new collaborator, type their email registered with Labii Inc. into the [Share Dialog Window](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-dialog-box.png), select a permission setting, and click “Add”. The new collaborator will receive an email containing a direct link to the shared document.
 
 #Inherited Permissions
 [Nested](https://labiiblog.files.wordpress.com/2016/01/labii-eln-sharing-nested-folders.png) folders and documents inheret permissions from their parent folder. Permissions for nested folders and documents can be changed on an individual basis.

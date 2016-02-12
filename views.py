@@ -5,7 +5,7 @@ from django.core.urlresolvers import reverse, resolve
 from django.conf import settings
 from accounts.decorators import track_url
 from metrics.tasks import add_view_count
-from common.scripts import id2eid, writeIntoDB, es2s
+from common.backend import id2eid, writeIntoDB, es2s
 from docs.models import *
 from sections.models import Sections
 
@@ -42,7 +42,7 @@ def get_md(filename):
 	return (did,title,link,desb,md)
 
 def schema_docs(request,data):
-	template = 'base_tlr.html'
+	template = 'tlr.html'
 	if not "meta_description" in data:
 		data["meta_description"] = "Documentation for Labii apps."
 	data["brand"] = "Docs"

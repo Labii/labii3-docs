@@ -1,5 +1,5 @@
 from django.db import models
-from common.scripts import id2eid
+from common.backend import id2eid
 
 class Docs(models.Model):
 	titlename = models.CharField(max_length=1000, null=True)

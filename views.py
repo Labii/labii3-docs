@@ -3,7 +3,7 @@ from django.template import RequestContext
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse, resolve
 from django.conf import settings
-from accounts.views import add_visiting_record
+from accounts.decorators import track_url
 from metrics.tasks import add_view_count
 from common.scripts import id2eid, writeIntoDB, es2s
 from docs.models import *

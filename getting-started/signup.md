@@ -24,7 +24,7 @@ Fill all fields and click **AGREE AND SUBMIT** to create an organization. By cli
 * Last Name
 * Organization Name
 
-![Sign Up](/images/signup.png)
+![Sign Up Page at https://v3.labii.com/accounts/signup/](/images/signup.png)
 
 ### What to expect
 

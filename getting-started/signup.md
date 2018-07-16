@@ -1,4 +1,4 @@
-# Sign Up
+# Create an Organization
 
 Use [sign up page](https://v3.labii.com/accounts/signup/) to create a new organization at Labii.
 
@@ -10,3 +10,26 @@ One company can create one or more Organizations at labii.com. One same email ca
 
 ### Link
 https://v3.labii.com/accounts/signup/
+
+### Sign Up
+
+* It is **FREE** to sign up.
+* **$10** credits will be provided.
+* No Password required.
+
+Fill all fields and click **AGREE AND SUBMIT** to create an organization. By clicking Submit, you agree to our [Terms of Service](http://www.labii.com/terms-of-service/) and that you have read our [Privacy Policy](https://www.labii.com/privacy-policy/).
+* Email
+* Phone
+* First Name
+* Last Name
+* Organization Name
+
+![Sign Up](/images/signup.png)
+
+### What to expect
+
+Once submited. You shall receive two emails from support@labii.com. Check your spam and unspam the emails if you did not see the emails.
+* **Activate Your Account**: This email indicates your account at labii.com has been created. Please follow the instruction to *activate your account* and *set up your password*. Your need to activate your account first to verify your email is correct.
+* **Your account at [Your Organization Name]**: This email indicates you have been added to the organization. A link of the organization home page is included.
+
+> **IMPORTANT:** The Link to set up your password will expire in 30 minutes. If expired, use [Forget Password](https://v3.labii.com/accounts/forgetpassword/) to reset your password.

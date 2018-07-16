@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 
 ## Getting Started
-* [Sign Up](getting-started/signup.md)
+* [Create an organization](getting-started/signup.md)
 * [Login](getting-started/signin.md)
 * [Create your first experiment](getting-started/create-your-first-experiment.md)
 

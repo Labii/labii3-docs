@@ -1,4 +1,4 @@
-# Introduction
+# Overview
 
 Labii helps biotech and pharmaceutical companies document, manage and interpret research data with electronic lab notebook \(ELN\) and laboratory information management system \(LIMS\).
 

@@ -1,21 +1,15 @@
 # Introduction
 
-Labii helps biotech and pharmaceutical companies document, manage and interpret research data with electronic lab notebook \(ELN\) and laboratory information management system \(LIMS\).
+Labii helps biotech and pharmaceutical companies document, manage and interpret research data with electronic lab notebook (ELN) and laboratory information management system (LIMS).
 
 **Labii ELN & LIMS** is an online platform and is available at [https://www.labii.com/](https://www.labii.com/).
 
-## Labii API
+This documentaion covers the guidelines for [Labii ELN & LIMS (v3)](https://v3.labii.com) and [Labii API](https://api.labii.com)
 
-Labii's APIs belong to the Representational State Transfer \(REST\) category.
+### Help and Support
 
-**Use Labii API to:**
+* Email or join google group help@labii.com.
+* [Submit a Support Ticket]()
 
-1. Connect and communicate with your existing ELN or LIMS.
-2. Connect to your equipment and create data right into Labii ELN & LIMS.
-
-**Version:** v1
-
-## Help and Support
-
-Please email or join google group help@labii.com.
-
+---
+https://docs.gitbook.com/getting-started

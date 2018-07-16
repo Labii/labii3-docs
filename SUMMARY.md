@@ -7,6 +7,14 @@
 * [Login](getting-started/signin.md)
 * [Create your first experiment](getting-started/create-your-first-experiment.md)
 
+
+## Change Log
+* [Labii ELN & LIMS (v3)](chagnelog/v3.md)
+* [API](chagnelog/api.md)
+
+
+
+---
 ## Introduction
 
 * [Overview](introduction/overview.md)

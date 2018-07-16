@@ -1,0 +1,23 @@
+{
+    "author": "Yonggan Wu <yongganw@labii.com>",
+    "description": "Documentation for Labii ELN & LIMS v3 and API",
+    "extension": null,
+    "generator": "site",
+    "isbn": null,
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "Chengwei's Blog": "http://www.chengweiyang.cn"
+        }
+    },
+    "output": null,
+    "plugins": ["collapsible-menu"],
+    "title": "Labii ELN & LIMS",
+    "variables": {}
+}

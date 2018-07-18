@@ -9,6 +9,16 @@
 * [Detail view](eln-and-lims/detail-view.md)
 * [Search](eln-and-lims/search.md)
 
+## Settings
+
+* [Organization Detail](settings/organization-detail.md)
+* [Statements](settings/statements.md)
+* [Switch Organization](settings/switch-organization.md)
+* [Members and Teams](settings/members-and-teams.md)
+* [Projects](settings/projects.md)
+* [Tables](settings/tables.md)
+* [Widgets](settings/widgets.md)
+
 ## Account
 
 * [Sign Up](account/sign-up.md)
@@ -18,6 +28,8 @@
 * [Sign out](account/sign-out.md)
 
 ## Widgets
+* [Plain Text](widgets/plain-text.md)
+* [Rich Text](widgets/rich-text.md)
 
 ## API
 * [Authentication](api/authentication.md)

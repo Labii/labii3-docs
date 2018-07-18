@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Quick Start](quick-start.md)
 
 ## Getting Started
 
@@ -64,7 +65,6 @@
 * [Methods](introduction/methods.md)
 * [Permissions](introduction/permissions.md)
 * [Glossary](introduction/glossary.md)
-* [Quick Start](quick-start.md)
 
 ## Apps
 

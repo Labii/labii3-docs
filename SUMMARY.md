@@ -32,6 +32,7 @@
 * [Rich Text](widgets/rich-text.md)
 
 ## API
+* [Overview](api/overview.md)
 * [Authentication](api/authentication.md)
 * [Statement](api/statement.md)
 

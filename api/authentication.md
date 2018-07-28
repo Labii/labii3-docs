@@ -11,45 +11,33 @@ Provide username and password to exchange a valid token. For the security reason
 
 Use the following command and examples to receive an token.
 
-{% tabs first="First Tab", second="Second Tab", third="Third Tab" %}
-
-{% content "first" %}
-Content for first tab ...
-
-{% content "second" %}
-Content for second tab ...
-
-{% content "third" %}
-Content for third tab ...
-
-{% endtabs %}
 
 
 {% tabs %}
-{% tab title="command-line" %}
+{% tab title="Bash" %}
 ```text
-POST: {{base_url}}/accounts/login/
+$ curl -d "username=test@labii.com&password=1234567" -X POST {{base_url}}/accounts/login/
 ```
 
-DATA:
-* username: your email address
-* password: your password
-{% endtab %}
+**Data Fields:**
 
+* email
+* password
 
-{% tab title="Example" %}
+**Return Json**
+
 ```text
-$ curl -d "username=test@labii.com&password=1234567" -X POST {{ base_url }}/accounts/login/
+{token: xxxxxxx}
 ```
 {% endtab %}
 
-{% tab title="Respond" %}
+{% tab title="JavaScript" %}
 ```text
 {token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9}
 ```
-{% endtab %}
 
-{% tab title="Errors" %}
+**Error message**
+
 * 405, Method not allowed.
   * GET
   * PUT
@@ -61,11 +49,46 @@ $ curl -d "username=test@labii.com&password=1234567" -X POST {{ base_url }}/acco
 * 429, Request was throttled.
   * Anonymous: 5/hour
   * Login user: 1000/hour
+
 {% endtab %}
-
-
 {% endtabs %}
+
+
+
+**Method:**
+```text
+POST: {{base_url}}/accounts/login/
+```
+
+**DATA:**
+* username: your email address
+* password: your password
+
+**Example:**
+```text
+$ curl -d "username=test@labii.com&password=1234567" -X POST {{ base_url }}/accounts/login/
+```
+
+**Response:**
+```text
+{token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9}
+```
+
+**Errors:**
+* 405, Method not allowed.
+  * GET
+  * PUT
+  * PATCH
+  * DELETE
+* 406, Unable to log in with provided credentials.
+  * Wrong username or password
+  * User not activate or email not validate.
+* 429, Request was throttled.
+  * Anonymous: 5/hour
+  * Login user: 1000/hour
 
 ## Forget Password
 
-Reset password from an email. The email will receive a link to reset the password.
+Reset password from an email.
+
+## Reset Password

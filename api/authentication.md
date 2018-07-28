@@ -92,5 +92,98 @@ email of the account
 {% endapi-method-spec %}
 {% endapi-method %}
 
-## Reset Password
+{% api-method method="post" host="{{ base\_url }}/accounts/" path="resetpassword/?tag={tag}" %}
+{% api-method-summary %}
+Reset Password
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Change user password. 
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="tag" type="string" required=true %}
+The tag returned from forget password method
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="password" type="string" required=true %}
+The new password
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+Wrong parameters
+{% endapi-method-response-example-description %}
+
+```
+Error: Missing Tag in GET! - Tag is missing in the url
+Error: Wrong Tag! - Tag is not valid
+Unknown request! - User not exists
+The link has expired - Tag is valid for only 30 min
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="{{base\_url}}/accounts" path="/logout/" %}
+{% api-method-summary %}
+Logout
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Logout your account, invalid the token.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="token" type="string" required=true %}
+user token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+Wrong token
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
 

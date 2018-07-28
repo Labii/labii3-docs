@@ -54,6 +54,18 @@ $ curl -d "username=test@labii.com&password=1234567" -X POST {{base_url}}/accoun
 {% endtabs %}
 
 
+{% tabs %}
+{% tab title="tab1" %}
+
+{% endtab %}
+
+{% tab title="tab2" %}
+```text
+{token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9}
+```
+{% endtab %}
+{% endtabs %}
+
 
 **Method:**
 ```text

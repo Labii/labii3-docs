@@ -55,14 +55,41 @@ $ curl -d "username=test@labii.com&password=1234567" -X POST {{base_url}}/accoun
 
 
 {% tabs %}
-{% tab title="tab1" %}
-
+{% tab title="Method" %}
+```text
+POST: {{base_url}}/accounts/login/
+```
 {% endtab %}
 
-{% tab title="tab2" %}
+{% tab title="Data" %}
+* username: your email address
+* password: your password
+{% endtab %}
+
+{% tab title="Example" %}
+```text
+$ curl -d "username=test@labii.com&password=1234567" -X POST {{ base_url }}/accounts/login/
+```
+{% endtab %}
+
+{% tab title="Response" %}
 ```text
 {token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9}
 ```
+{% endtab %}
+
+{% tab title="Errors" %}
+* 405, Method not allowed.
+  * GET
+  * PUT
+  * PATCH
+  * DELETE
+* 406, Unable to log in with provided credentials.
+  * Wrong username or password
+  * User not activate or email not validate.
+* 429, Request was throttled.
+  * Anonymous: 5/hour
+  * Login user: 1000/hour
 {% endtab %}
 {% endtabs %}
 

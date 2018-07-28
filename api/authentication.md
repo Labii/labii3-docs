@@ -65,6 +65,9 @@ POST: {{base_url}}/accounts/login/
 * username: your email address
 * password: your password
 {% endtab %}
+{% endtabs %}
+
+
 
 {% tab title="Example" %}
 ```text
@@ -91,7 +94,8 @@ $ curl -d "username=test@labii.com&password=1234567" -X POST {{ base_url }}/acco
   * Anonymous: 5/hour
   * Login user: 1000/hour
 {% endtab %}
-{% endtabs %}
+
+
 
 
 **Method:**

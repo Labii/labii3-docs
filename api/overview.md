@@ -1,5 +1,9 @@
 # Overview
 
+Labii helps scientists from biotech and pharmaceutical companies document, manage, and interpret research data with **Electronic Lab Notebook (ELN)** and **Laboratory Information Management System (LIMS)**.
+
+Labii's APIs belong to the Representational State Transfer (REST) category. They allow you to perform `RESTful` operations such as reading, modifying, adding or deleting data.
+
 ### API
 Each API has a list view and detail view.
 
@@ -49,7 +53,7 @@ Not all levels are available for all `list` API. Error of `HTTP_406_NOT_ACCEPTAB
 |Widget|*|-|-|
 
 ### Methods
-Labii's APIs belong to the Representational State Transfer (REST) category. They allow you to perform `RESTful` operations such as reading, modifying, adding or deleting data. Here are list of methods used:
+Here are list of methods used:
 * **GET**: Fetch one or more objects
 * **POST**: Create an object
 * **PUT**: Update an object

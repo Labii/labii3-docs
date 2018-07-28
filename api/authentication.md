@@ -21,7 +21,7 @@ Use the following command and examples to receive an token.
         DATA:
         * username: your email address
         * password: your password
-    {% tab %}
+    {% endtab %}
 
 
     {% tab title="Example" %}

@@ -1,58 +1,96 @@
+---
+description: >-
+  All APIs at Labii need token to authenticate. This page introduces the methods
+  of login, logout, sign in, forget password, and reset password.
+---
+
 # Authentication
 
-All APIs at Labii need token to authenticate. This page introduces the methods of login, logout, sign in, forget password, and reset password.
+{% api-method method="post" host="{{base\_url}}/accounts/" path="auth/" %}
+{% api-method-summary %}
+Auth
+{% endapi-method-summary %}
 
-## Auth
+{% api-method-description %}
+Provide username and password to exchange a valid token. 
+{% endapi-method-description %}
 
-Provide username and password to exchange a valid token. For the security reasons:
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="password" type="string" required=true %}
+login password
+{% endapi-method-parameter %}
 
-* The token will be invalid after 30 minutes of idle.
-* After 5 invalid or failed attempts your account will be locked for 24 hours to prevent unauthorized access.
-* Notification will be sent out for every failed login.
+{% api-method-parameter name="username" type="string" required=true %}
+email of the account
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
 
-Use the following command and examples to receive an token.
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+Login successful
+{% endapi-method-response-example-description %}
 
-{% tabs %}
-{% tab title="Method" %}
-```text
-$ curl -d "username=test@labii.com&password=1234567" -X POST {{base_url}}/accounts/login/
 ```
-{% endtab %}
-
-{% tab title="Data" %}
-* **username**: your email address
-* **password**: your password
-{% endtab %}
-
-{% tab title="Example" %}
-```text
-$ curl -d "username=test@labii.com&password=1234567" -X POST {{ base_url }}/accounts/login/
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+    "user": {
+        "sid":"xxx",
+        "first_name":"xxx",
+        "last_name":"xxx",
+        "email":"xxx@labii.com"
+    }
+}
 ```
-{% endtab %}
+{% endapi-method-response-example %}
 
-{% tab title="Response" %}
-```text
-{token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9}
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+Wrong username or password
+{% endapi-method-response-example-description %}
+
 ```
-{% endtab %}
+["Unable to log in with provided credentials."]
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
-{% tab title="Errors" %}
-* 405, Method not allowed.
-  * GET
-  * PUT
-  * PATCH
-  * DELETE
-* 406, Unable to log in with provided credentials.
-  * Wrong username or password
-  * User not activate or email not validate.
-* 429, Request was throttled.
-  * Anonymous: 5/hour
-  * Login user: 1000/hour
-{% endtab %}
-{% endtabs %}
+{% api-method method="post" host="{{ base\_url }}/accounts" path="/forgetpassword/" %}
+{% api-method-summary %}
+Forget Password
+{% endapi-method-summary %}
 
-## Forget Password
+{% api-method-description %}
+Receive a email to reset the password.   
+{% endapi-method-description %}
 
-Reset password from an email.
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="email" type="string" required=true %}
+email of the account
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{tag: xxxxx}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
 ## Reset Password
+

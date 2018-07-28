@@ -11,6 +11,19 @@ Provide username and password to exchange a valid token. For the security reason
 
 Use the following command and examples to receive an token.
 
+{% tabs first="First Tab", second="Second Tab", third="Third Tab" %}
+
+{% content "first" %}
+Content for first tab ...
+
+{% content "second" %}
+Content for second tab ...
+
+{% content "third" %}
+Content for third tab ...
+
+{% endtabs %}
+
 
 {% tabs %}
 {% tab title="command-line" %}

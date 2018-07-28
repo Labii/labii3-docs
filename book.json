@@ -5,7 +5,7 @@
     "generator": "site",
     "isbn": null,
     "output": null,
-    "plugins": ["collapsible-menu", "codetabs"],
+    "plugins": ["collapsible-menu", "simpletabs"],
     "title": "Labii ELN & LIMS",
     "variables": {}
 }

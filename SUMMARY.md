@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Introduction](README.md)
 * [Quick Start](quick-start.md)
 
 ## ELN & LIMS
@@ -28,10 +29,12 @@
 * [Sign out](account/sign-out.md)
 
 ## Widgets
+
 * [Plain Text](widgets/plain-text.md)
 * [Rich Text](widgets/rich-text.md)
 
 ## API
+
 * [Overview](api/overview.md)
 * [Authentication](api/authentication.md)
 * [Statement](api/statement.md)
@@ -40,3 +43,4 @@
 
 * [Labii ELN & LIMS \(v3\)](change-log/labii-eln-and-lims-v3.md)
 * [API](change-log/api.md)
+

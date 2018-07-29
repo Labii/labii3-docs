@@ -38,7 +38,20 @@
 * [Overview](api/overview.md)
 * [Authentication](api/authentication.md)
 * [Organization](api/statement.md)
-* [Schema](api/schema.md)
+* [Organization Member](api/schema.md)
+* [Team](api/team.md)
+* [Organization Widget](api/organization-widget.md)
+* [Statement](api/statement-1.md)
+* [Project](api/project.md)
+* [Project Member](api/project-member.md)
+* [Table](api/table.md)
+* [Column](api/column.md)
+* [Filter](api/filter.md)
+* [Row](api/row.md)
+* [Section](api/section.md)
+* [Version](api/version.md)
+* [Activity](api/activity.md)
+* [Widget](api/widget.md)
 
 ## Change Log
 

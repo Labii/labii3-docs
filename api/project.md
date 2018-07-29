@@ -1,16 +1,14 @@
 ---
 description: >-
-  Organization members are the members in your organization that has permission
-  to document research data.
+  A project is a particular aim that been carefully planned by an individual or
+  a team.
 ---
 
-# Organization Member
-
-###  {#organization-list}
+# Project
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Project List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -42,7 +40,7 @@ Organization Member List
 
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Project List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -74,7 +72,7 @@ Organization Member List
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Project Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -106,7 +104,7 @@ Organization Member Detail
 
 {% api-method method="patch" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Project Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}

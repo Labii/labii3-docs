@@ -1,16 +1,14 @@
 ---
 description: >-
-  Organization members are the members in your organization that has permission
-  to document research data.
+  Team is a group of users with a full set of complementary skills required to
+  complete a task. They usually share the same permission set.
 ---
 
-# Organization Member
-
-###  {#organization-list}
+# Team
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Team List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -42,7 +40,7 @@ Organization Member List
 
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Team List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -74,7 +72,7 @@ Organization Member List
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Team Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -106,7 +104,39 @@ Organization Member Detail
 
 {% api-method method="patch" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Team Detail
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="delete" host="" path="" %}
+{% api-method-summary %}
+Team Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}

@@ -1,16 +1,14 @@
 ---
 description: >-
-  Organization members are the members in your organization that has permission
-  to document research data.
+  Sections are the module of document. Use section to insert different type of
+  data. A section holds the data for a widget for one particular record.
 ---
 
-# Organization Member
-
-###  {#organization-list}
+# Section
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Section List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -42,7 +40,7 @@ Organization Member List
 
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Section List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -74,7 +72,7 @@ Organization Member List
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Section Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -106,7 +104,7 @@ Organization Member Detail
 
 {% api-method method="patch" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Section Patch
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -135,4 +133,6 @@ Organization Member Detail
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 

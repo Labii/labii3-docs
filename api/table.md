@@ -1,16 +1,12 @@
 ---
-description: >-
-  Organization members are the members in your organization that has permission
-  to document research data.
+description: Tables are individual modules to manage research data in category.
 ---
 
-# Organization Member
-
-###  {#organization-list}
+# Table
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Table List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -42,7 +38,7 @@ Organization Member List
 
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Table List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -74,7 +70,7 @@ Organization Member List
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Table Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -106,7 +102,7 @@ Organization Member Detail
 
 {% api-method method="patch" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Table Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}

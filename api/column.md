@@ -1,16 +1,14 @@
 ---
 description: >-
-  Organization members are the members in your organization that has permission
-  to document research data.
+  A column is a set of data values of a particular simple type, one for each row
+  of the table.
 ---
 
-# Organization Member
-
-###  {#organization-list}
+# Column
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Column List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -42,7 +40,7 @@ Organization Member List
 
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
-Organization Member List
+Column List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -74,7 +72,7 @@ Organization Member List
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Column Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -106,7 +104,7 @@ Organization Member Detail
 
 {% api-method method="patch" host="" path="" %}
 {% api-method-summary %}
-Organization Member Detail
+Column Detail
 {% endapi-method-summary %}
 
 {% api-method-description %}

@@ -34,7 +34,7 @@ email of the account
 Login successful
 {% endapi-method-response-example-description %}
 
-```
+```yaml
 {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
     "user": {
@@ -84,7 +84,7 @@ email of the account
 
 {% endapi-method-response-example-description %}
 
-```
+```yaml
 {tag: xxxxx}
 ```
 {% endapi-method-response-example %}

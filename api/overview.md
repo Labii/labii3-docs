@@ -1,12 +1,43 @@
+---
+description: >-
+  Labii's APIs belong to the Representational State Transfer (REST) category.
+  They allow you to perform RESTful operations such as reading, modifying,
+  adding or deleting data.
+---
+
 # Overview
 
-Labii helps scientists from biotech and pharmaceutical companies document, manage, and interpret research data with **Electronic Lab Notebook \(ELN\)** and **Laboratory Information Management System \(LIMS\)**.
+## URL
 
-Labii's APIs belong to the Representational State Transfer \(REST\) category. They allow you to perform `RESTful` operations such as reading, modifying, adding or deleting data.
+Object has two type of url represent two different views:
 
-## API
+* List
 
-Each API has a list view and detail view.
+  ```text
+  {{base_url}}/{app}/{model}/list/{level}/{sid}/{serializer}/
+  ```
+
+* View
+
+  ```text
+  {{base_url}}/{app}/{model}/detail/{sid}/
+  ```
+
+Wheres,
+
+* **base\_url**=[https://api.labii.com/v1/](https://api.labii.com/v1/), the link will change as version changes. 
+* **app**, the name of application. See [Link](overview.md#link) for more details.
+* **model**, the name of model. See [Link](overview.md#link) for more details.
+* **level**, the scope of records to retrieve. See [Levels](overview.md#levels) for more details.
+* **sid**, Static and encrypted labii object id
+* **serializer**, scope of fields of the return data
+  * **name**, return only `sid` and `name`
+  * **list**, return selected fields of the objects
+  * **detail**, return all fields of the objects
+
+## Link
+
+Each API has a list `view` and `detail` view.
 
 | API | Description | List view | Detail view |
 | --- | --- | --- | --- |

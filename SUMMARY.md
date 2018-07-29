@@ -37,7 +37,8 @@
 
 * [Overview](api/overview.md)
 * [Authentication](api/authentication.md)
-* [Statement](api/statement.md)
+* [Organization](api/statement.md)
+* [Schema](api/schema.md)
 
 ## Change Log
 

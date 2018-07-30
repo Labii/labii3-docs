@@ -29,7 +29,7 @@ Wheres,
 * **app**, the name of application. See [Link](overview.md#link) for more details.
 * **model**, the name of model. See [Link](overview.md#link) for more details.
 * **level**, the scope of records to retrieve. See [Levels](overview.md#levels) for more details.
-* **sid**, Static and encrypted labii object id
+* **sid**, Static and encrypted labii object id. It have to match with level. Of `level=organization`, the `sid` have to be the `sid` of a `organization`.
 * **serializer**, scope of fields of the return data
   * **name**, return only `sid` and `name`
   * **list**, return selected fields of the objects

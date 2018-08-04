@@ -40,12 +40,13 @@ Wheres,
 Each API has a list `view` and `detail` view.
 
 | API | Description | List view | Detail view |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | Organization | The organization object | `/organizations/organization/list/{level}/{sid}/{serializer}/` | `/organizations/organization/detail/{sid}` |
 | Organization Member | Member of the organization | `/organizations/organizationmember/list/{level}/{sid}/{serializer}/` | `/organizations/organizationmember/detail/{sid}` |
 | Team | Team of the organization | `/organizations/team/list/{level}/{sid}/{serializer}/` | `/organizations/team/detail/{sid}` |
 | Organization Widget | Installed widgets | `/organizations/organizationwidget/list/{level}/{sid}/{serializer}/` | `/organizations/organizationwidget/detail/{sid}` |
 | Statement | Monthly statement | `/organizations/statement/list/{level}/{sid}/{serializer}/` | `/organizations/statement/detail/{sid}` |
+| Backup | Backup data | `/organizations/backup/list/{level}/{sid}/{serializer}/` | `/organizations/backup/detail/{sid}` |
 | Project | The project object | `/projects/project/list/{level}/{sid}/{serializer}/` | `/projects/project/detail/{sid}` |
 | Project Member | Project member or team | `/projects/projectmember/list/{level}/{sid}/{serializer}/` | `/projects/projectmember/detail/{sid}` |
 | Table | The table object | `/tables/table/list/{level}/{sid}/{serializer}/` | `/tables/table/detail/{sid}` |
@@ -68,12 +69,13 @@ Levels defines the scope of records to retrieve. It is a required parameter for 
 Not all levels are available for all `list` API. Error of `HTTP_406_NOT_ACCEPTABLE` will return if a wrong level is used. The table below lists all allowed levels:
 
 | List API | level=organization | level=user | level=project |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | Organization List | Yes | Yes | - |
 | Organization Member List | Yes | - | - |
 | Team List | Yes | Yes | - |
 | Organization Widget | Yes | - | - |
 | Statement List | Yes | - | - |
+| Backup List | Yes | - | - |
 | Project List | Yes | Yes | - |
 | Project Member List | Yes | - | Yes |
 | Table List | Yes | - | - |
@@ -110,7 +112,7 @@ And 3 roles at the project level:
 * **Project View**: The members has `view` permission at the project
 
 | API | GET | POST | PUT | PATCH | DELETE |
-| --- | --- | --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- | :--- | :--- |
 | Organization List | Admin, Member | Admin | - | - | - |
 | Organization Detail | Admin, Member | - | - | Admin | - |
 | Organization Member List | Admin, Member | Admin | - | - | - |
@@ -121,6 +123,8 @@ And 3 roles at the project level:
 | Organization Widget Detail | Admin, Member | - | - | - | Admin |
 | Statement List | Admin | - | - | - | - |
 | Statement Detail | Admin | - | - | - | - |
+| Backup List | Admin | - | - | - | - |
+| Backup Detail | Admin | - | - | - | - |
 | Project List | Admin, Project Admin, Project Edit, Project View | Admin | - | - | - |
 | Project Detail | Admin, Project Admin, Project Edit, Project View | - | - | Admin, Project Admin | - |
 | Project Member List | Admin, Project Admin, Project Edit, Project View | Admin, Project Admin | - | - | - |

@@ -12,8 +12,10 @@
 
 ## Settings
 
+* [Overview](settings/overview.md)
 * [Organization Detail](settings/organization-detail.md)
 * [Statements](settings/statements.md)
+* [Backup](settings/backup.md)
 * [Switch Organization](settings/switch-organization.md)
 * [Members and Teams](settings/members-and-teams.md)
 * [Projects](settings/projects.md)
@@ -42,6 +44,7 @@
 * [Team](api/team.md)
 * [Organization Widget](api/organization-widget.md)
 * [Statement](api/statement.md)
+* [Backup](api/backup.md)
 * [Project](api/project.md)
 * [Project Member](api/project-member.md)
 * [Table](api/table.md)

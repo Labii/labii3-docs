@@ -123,7 +123,7 @@ And 3 roles at the project level:
 | Organization Widget Detail | Admin, Member | - | - | - | Admin |
 | Statement List | Admin | - | - | - | - |
 | Statement Detail | Admin | - | - | - | - |
-| Backup List | Admin | - | - | - | - |
+| Backup List | Admin | Admin | - | - | - |
 | Backup Detail | Admin | - | - | - | - |
 | Project List | Admin, Project Admin, Project Edit, Project View | Admin | - | - | - |
 | Project Detail | Admin, Project Admin, Project Edit, Project View | - | - | Admin, Project Admin | - |

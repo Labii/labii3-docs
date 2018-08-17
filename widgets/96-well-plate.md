@@ -21,7 +21,7 @@ Click the [Gear Icon](summary.md#edit-widget) to show edit mode of the widget. 9
 However, there are some exceptions:
 
 * The number of columns and rows can not been changed, which means no function to insert/delete rows/columns
-* When importing data from .xlsx, .tsv, \*.csv files, instead of appending new data, it will replace the existing data. Extra rows and columns will be truncated. 
+* When importing data from \*.xlsx, .tsv, \*.csv files, instead of appending new data, it will replace the existing data. Extra rows and columns will be truncated. Also, only the first sheet of \*.xlsx will be imported.
 * Selected row and column will be highlighted.
 
 ![](../.gitbook/assets/widgets-96-well-plate-edit.png)

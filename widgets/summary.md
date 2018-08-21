@@ -28,5 +28,13 @@ The metadata is specific in order:
 The priority of metadata: record &gt; project &gt; organization
 {% endhint %}
 
+## Errors
 
+The conditions will be checked before the loading of widget. The errors have to be fixed to use the widget.
+
+![Error message of a widget](../.gitbook/assets/metadata-errors.png)
+
+**Error types:**
+
+* **Missing metadata:** The required metadata does not provided. To solve this error, added the missing metadata to organization, project or record.
 

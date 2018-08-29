@@ -5,10 +5,11 @@
 
 ## ELN & LIMS
 
-* [Add record](eln-and-lims/add-record.md)
-* [List view](eln-and-lims/list-view.md)
-* [Detail view](eln-and-lims/detail-view.md)
+* [Add Record](eln-and-lims/add-record.md)
+* [List View](eln-and-lims/list-view.md)
+* [Detail View](eln-and-lims/detail-view.md)
 * [Search](eln-and-lims/search.md)
+* [Import and Export](eln-and-lims/import-and-export.md)
 
 ## Settings
 

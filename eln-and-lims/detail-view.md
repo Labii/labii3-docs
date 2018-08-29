@@ -2,7 +2,7 @@
 description: Coming soon...
 ---
 
-# Detail view
+# Detail View
 
 
 

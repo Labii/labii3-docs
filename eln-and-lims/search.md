@@ -8,11 +8,11 @@ description: >-
 
 ## In-page Search
 
-Coming soon...
+On the list view of projects, there is a search icon on the top, where you can click and start typing. The results are only from that table category, and will appear as you type. 
 
 ## Global Search
 
-Coming soon...
+On the sidebar, click on **Search** to search for content in all available files. 
 
 ## Filter
 

@@ -1,7 +1,3 @@
----
-description: Use the Add function to create one records.
----
-
 # Add Record
 
 ## Add a Record

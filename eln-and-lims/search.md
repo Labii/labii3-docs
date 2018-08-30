@@ -1,18 +1,24 @@
 ---
 description: >-
-  Labii provides 3 different searching methods: 1) in-page search; 2) global
-  search; 3) advanced filter
+  Labii provides sophisticated search function to help you address your
+  scientific problems.
 ---
 
 # Search
 
-## In-page Search
+## In-Page Search
 
-On the list view of projects, there is a search icon on the top, where you can click and start typing. The results are only from that table category, and will appear as you type. 
+Use this function to narrow down the number of items to display in one page. On the list view of projects, there is a search icon on the top, where you can click and start typing. The results are only from that table category, and will appear as you type. 
+
+![In-Page Search](../.gitbook/assets/search-in-page.png)
 
 ## Global Search
 
-On the sidebar, click on **Search** to search for content in all available files. 
+If want to search any records match to one or two phases, use global search. 
+
+On the sidebar, click on **Search** to search. 
+
+![Global Search](../.gitbook/assets/search-global.png)
 
 ## Filter
 

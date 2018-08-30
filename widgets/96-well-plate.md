@@ -1,7 +1,3 @@
----
-description: Use this widget to display the layout of 96-well plate.
----
-
 # 96-Well Plate
 
 ## Layout

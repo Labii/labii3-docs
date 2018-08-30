@@ -1,7 +1,3 @@
----
-description: Use this widget to display the layout of 384-well plate.
----
-
 # 384-Well Plate
 
 ## About

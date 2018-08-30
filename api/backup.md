@@ -1,7 +1,3 @@
----
-description: Backup objects
----
-
 # Backup
 
 {% api-method method="get" host="{{ base\_url }}" path=" /organizations/backup/list/{level}/{sid}/{serializer}/" %}

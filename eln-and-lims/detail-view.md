@@ -1,7 +1,3 @@
----
-description: Coming soon...
----
-
 # Detail View
 
 

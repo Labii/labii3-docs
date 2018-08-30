@@ -1,9 +1,3 @@
----
-description: >-
-  A project is a particular aim that been carefully planned by an individual or
-  a team.
----
-
 # Project
 
 {% api-method method="get" host="{{ base\_url }}" path=" /projects/project/list/{level}/{sid}/{serializer}/" %}

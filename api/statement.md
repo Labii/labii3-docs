@@ -1,7 +1,3 @@
----
-description: Monthly statements. Available to administrators only!
----
-
 # Statement
 
 {% api-method method="get" host="{{ base\_url }}" path=" /organizations/statement/list/{level}/{sid}/{serializer}/" %}

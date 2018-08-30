@@ -1,7 +1,3 @@
----
-description: Members or Teams of a project.
----
-
 # Project Member
 
 {% api-method method="get" host="{{ base\_url }}" path=" /projects/projectmember/list/{level}/{sid}/{serializer}/" %}

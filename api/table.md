@@ -1,7 +1,3 @@
----
-description: Tables are individual modules to manage research data in category.
----
-
 # Table
 
 {% api-method method="get" host="{{ base\_url }}" path=" /tables/table/list/{level}/{sid}/{serializer}/" %}

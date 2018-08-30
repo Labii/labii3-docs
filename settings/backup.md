@@ -1,9 +1,3 @@
----
-description: >-
-  This documents descriptions how to download and configure routine backup. Only
-  administrators has permissions to operate.
----
-
 # Backup
 
 ## Summary

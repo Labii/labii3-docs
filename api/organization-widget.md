@@ -1,7 +1,3 @@
----
-description: Available widgets to use.
----
-
 # Organization Widget
 
 {% api-method method="get" host="{{ base\_url }}" path=" /organizations/organizationwidget/list/{level}/{sid}/{serializer}/" %}

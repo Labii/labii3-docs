@@ -1,7 +1,3 @@
----
-description: Add a record and insert a section into the experiment.
----
-
 # Quick Start
 
 All records \(experiment, protocol, sample, et.al\) at Labii can be added via clicking the `Add` button on the sidebar. 

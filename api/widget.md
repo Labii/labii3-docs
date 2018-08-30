@@ -1,9 +1,3 @@
----
-description: >-
-  Widget provide powerful add-ons to your records. Widgets are created and
-  maintained by Labii Inc. and therefore, you do not have permission to change.
----
-
 # Widget
 
 {% api-method method="get" host="{{ base\_url }}" path=" /widgets/widget/list/{level}/{sid}/{serializer}/" %}

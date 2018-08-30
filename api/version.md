@@ -1,7 +1,3 @@
----
-description: The change history.
----
-
 # Version
 
 {% api-method method="get" host="{{ base\_url }}" path=" /tables/version/list/{level}/{sid}/{serializer}/" %}

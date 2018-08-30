@@ -1,7 +1,3 @@
----
-description: Showing a list of records.
----
-
 # List View
 
 ## Layout
@@ -36,9 +32,7 @@ Data can be updated directly in the list view. To edit the values of contents in
 3. Change the value. 
 4. Click **Submit**.
 
-![](../.gitbook/assets/screen-shot-2018-08-28-at-2.12.16-pm.png)
-
-![](../.gitbook/assets/screen-shot-2018-08-28-at-2.12.55-pm.png)
+![Inline Edit](../.gitbook/assets/list-inline-edit.png)
 
 ## Bulk Edit
 
@@ -71,7 +65,7 @@ See details [here](import-and-export.md#export).
 
 There is an option to increase or decrease the amount of pages shown on a page, from 10 to 2,000 per page. Use the left and right arrow keys on the top right corner to navigate between pages. 
 
-![](../.gitbook/assets/screen-shot-2018-08-28-at-2.18.02-pm.png)
+![Select number of items to display](../.gitbook/assets/list-pagination.png)
 
 ## Bulk Print
 

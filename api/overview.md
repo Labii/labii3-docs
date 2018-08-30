@@ -1,10 +1,3 @@
----
-description: >-
-  Labii's APIs belong to the Representational State Transfer (REST) category.
-  They allow you to perform RESTful operations such as reading, modifying,
-  adding or deleting data.
----
-
 # Overview
 
 ## URL

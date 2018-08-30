@@ -1,7 +1,3 @@
----
-description: Records of a table.
----
-
 # Row
 
 {% api-method method="get" host="{{ base\_url }}" path=" /tables/row/list/{level}/{sid}/{serializer}/" %}

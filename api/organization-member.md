@@ -1,9 +1,3 @@
----
-description: >-
-  Organization members are the members in your organization that has permission
-  to document research data.
----
-
 # Organization Member
 
 {% api-method method="get" host="{{ base\_url }}" path=" /organizations/organizationmember/list/{level}/{sid}/{serializer}/" %}

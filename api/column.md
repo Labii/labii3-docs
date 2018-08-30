@@ -1,9 +1,3 @@
----
-description: >-
-  A column is a set of data values of a particular simple type, one for each row
-  of the table.
----
-
 # Column
 
 {% api-method method="get" host="{{ base\_url }}" path=" /tables/column/list/{level}/{sid}/{serializer}/" %}

@@ -1,7 +1,3 @@
----
-description: Activity of changes.
----
-
 # Activity
 
 {% api-method method="get" host="{{ base\_url }}" path=" /activities/activity/list/{level}/{sid}/{serializer}/" %}

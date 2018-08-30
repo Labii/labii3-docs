@@ -1,9 +1,3 @@
----
-description: >-
-  Filter is a collection of limitations to table fields for allowing users to
-  restrict display results.
----
-
 # Filter
 
 {% api-method method="get" host="{{ base\_url }}" path=" /tables/filter/list/{level}/{sid}/{serializer}/" %}

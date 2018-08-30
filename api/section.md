@@ -1,9 +1,3 @@
----
-description: >-
-  Sections are the module of document. Use section to insert different type of
-  data. A section holds the data for a widget for one particular record.
----
-
 # Section
 
 {% api-method method="get" host="{{ base\_url }}" path=" /tables/section/list/{level}/{sid}/{serializer}/" %}

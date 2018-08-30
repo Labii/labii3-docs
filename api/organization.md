@@ -1,7 +1,3 @@
----
-description: API related to Organization object. Only the listed methods are allowed.
----
-
 # Organization
 
 {% api-method method="get" host="{{ base\_url }}" path="/organizations/organization/list/{level}/{sid}/{serializer}/" %}

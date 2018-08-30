@@ -1,9 +1,3 @@
----
-description: >-
-  All APIs at Labii need token to authenticate. This page introduces the methods
-  of login, logout, sign in, forget password, and reset password.
----
-
 # Authentication
 
 {% api-method method="post" host="{{base\_url}}/accounts/" path="auth/" %}

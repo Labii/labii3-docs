@@ -1,9 +1,3 @@
----
-description: >-
-  Team is a group of users with a full set of complementary skills required to
-  complete a task. They usually share the same permission set.
----
-
 # Team
 
 {% api-method method="get" host="{{ base\_url }}" path=" /organizations/team/list/{level}/{sid}/{serializer}/" %}

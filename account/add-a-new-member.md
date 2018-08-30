@@ -1,6 +1,10 @@
-# Add a new member
+---
+description: New members can be added to the organization
+---
 
-## Add a member
+# Add New member
 
-## Edit a member
+## Add Member
+
+## Edit Member
 

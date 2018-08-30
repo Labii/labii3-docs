@@ -28,7 +28,7 @@
 * [Sign Up](account/sign-up.md)
 * [Login](account/login.md)
 * [Forget password](account/forget-password.md)
-* [Add a new member](account/add-a-new-member.md)
+* [Add New member](account/add-a-new-member.md)
 * [Sign out](account/sign-out.md)
 
 ## Widgets

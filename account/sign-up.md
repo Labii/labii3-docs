@@ -1,3 +1,7 @@
+---
+description: Create an account at Labii
+---
+
 # Sign Up
 
 Use [sign up page](https://v3.labii.com/accounts/signup/) to create a new organization at Labii.

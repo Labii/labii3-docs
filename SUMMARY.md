@@ -17,6 +17,7 @@
 * [Organization Detail](settings/organization-detail.md)
 * [Statements](settings/statements.md)
 * [Backup](settings/backup.md)
+* [Add Organization](settings/add-organization.md)
 * [Switch Organization](settings/switch-organization.md)
 * [Members and Teams](settings/members-and-teams.md)
 * [Projects](settings/projects.md)

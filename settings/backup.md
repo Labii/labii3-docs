@@ -1,3 +1,7 @@
+---
+description: Download or configure the backup settings
+---
+
 # Backup
 
 ## Summary
@@ -7,7 +11,7 @@ Backup at Labii is generated automatically. Labii provides two different backups
 * **Database Backup**, all database data of your organization in json format.
 * **Files Backup**, all files uploaded.
 
-Both of backups can be downloaded.
+Both of backups are downloadable.
 
 ## Viewing Backup
 
@@ -21,9 +25,7 @@ A list of backup will be displayed. Click the name of a Backup to view the backu
 
 A new backup can be created manually. To do that. Click Menu -&gt; Create a Backup.
 
-
-
-![Create a Backup](../.gitbook/assets/settings-backup-create.png)
+> ![Create a Backup](../.gitbook/assets/settings-backup-create.png)
 
 {% hint style="info" %}
 This might take a while. It is OK for you to navigate to other pages. The new backup will be available in the list once finished.

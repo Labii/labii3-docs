@@ -11,8 +11,8 @@ Only members can view or edit the data of the organization. There are 3 differen
 | Role | Description | Positions |
 | :--- | :--- | :--- |
 | Administrators | The account administrators, they have full permission to configure the account. | CEOIT administrators |
-| Members | The active members of the organization. | ScientistsCollaborators |
-| Alumni | The members who have left the organization. Set `is_archived=true` to disable a member's permission.  |  |
+| Members | The active members of the organization. They can view/edit records based on project permission settings. | ScientistsCollaborators |
+| Alumni | The members who have left the organization. Set `is_archived=true` to disable a member's permission. They do not have permission to view/edit records. |  |
 
 **To add a member:** 
 

@@ -1,3 +1,7 @@
+---
+description: Create your first experiment in 4 steps
+---
+
 # Quick Start
 
 All records \(experiment, protocol, sample, et.al\) at Labii can be added via clicking the `Add` button on the sidebar. 

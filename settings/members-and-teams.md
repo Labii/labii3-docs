@@ -8,13 +8,42 @@ description: Permission and member management.
 
 Only members can view or edit the data of the organization. There are 3 different roles for members:
 
-| Role | Description | Positions |
-| :--- | :--- | :--- |
-| Administrators | The account administrators, they have full permission to configure the account. | CEOIT administrators |
-| Members | The active members of the organization. They can view/edit records based on project permission settings. | ScientistsCollaborators |
-| Alumni | The members who have left the organization. Set `is_archived=true` to disable a member's permission. They do not have permission to view/edit records. |  |
-
-**To add a member:** 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Role</th>
+      <th style="text-align:left">Description</th>
+      <th style="text-align:left">Positions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Administrators</td>
+      <td style="text-align:left">The account administrators, they have full permission to configure the
+        account.</td>
+      <td style="text-align:left">
+        <p>CEO</p>
+        <p>IT administrators</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Members</td>
+      <td style="text-align:left">The active members of the organization. They can view/edit records based
+        on project permission settings.</td>
+      <td style="text-align:left">
+        <p>Scientists</p>
+        <p>Collaborators</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Alumni</td>
+      <td style="text-align:left">The members who have left the organization. Set <code>is_archived=true</code> to
+        disable a member's permission. They do not have permission to view/edit
+        records.</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>**To add a member:** 
 
 Settings -&gt; Member -&gt; Click "+" in the Nav -&gt; Fill in the form and Submit.
 

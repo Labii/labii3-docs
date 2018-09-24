@@ -10,6 +10,7 @@
 * [Detail View](eln-and-lims/detail-view.md)
 * [Search](eln-and-lims/search.md)
 * [Import and Export](eln-and-lims/import-and-export.md)
+* [Document Management](eln-and-lims/document-management.md)
 
 ## Settings
 
@@ -38,6 +39,8 @@
 * [Plain Text](widgets/plain-text.md)
 * [Rich Text](widgets/rich-text.md)
 * [Table](widgets/table.md)
+* [Files](widgets/files.md)
+* [Files \(No Preview\)](widgets/files-no-preview.md)
 * [96-Well Plate](widgets/96-well-plate.md)
 * [384-Well Plate](widgets/384-well-plate.md)
 * [Backlink](widgets/backlink.md)

@@ -29,7 +29,7 @@ Make sure your the length of your file name is less than 500 characteristics.
 {% endhint %}
 
 {% hint style="info" %}
-Please **DO NOT** include any special characteristics in your file name. For example: **\#**
+Please **DO NOT** include any special characters in your file name. For example: **\#.** _Labii will remove these special characters. Please do not surprised if your file name is different to your original ones._
 {% endhint %}
 
 ![Select an project for file uploading](../.gitbook/assets/files-upload-choose-project.png)

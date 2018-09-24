@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Quick Start](quick-start.md)
+* [FAQ](faq.md)
 
 ## ELN & LIMS
 

@@ -22,6 +22,10 @@ There are 3 different permission levels when joining a project:
 Administrators do not have permission to add/edit records if they are not added to a project. However, they have view permissions even they are not a member of a project.
 {% endhint %}
 
+{% hint style="info" %}
+If Pay-Per-Use is used, and there is not enough credits left for the organization, **all members lost Edit permission till credits are added**.
+{% endhint %}
+
 ## Add Project
 
 To add a project:

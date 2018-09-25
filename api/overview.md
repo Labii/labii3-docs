@@ -46,6 +46,7 @@ Each API has a list `view` and `detail` view.
 | Column | The columns of a table | `/tables/column/list/{level}/{sid}/{serializer}/` | `/tables/column/detail/{sid}` |
 | Filter | The filters of a table | `/tables/filter/list/{level}/{sid}/{serializer}/` | `/tables/filter/detail/{sid}` |
 | Row | The rows of a table | `/tables/row/list/{level}/{sid}/{serializer}/` | `/tables/row/detail/{sid}` |
+| Cell | The cells of a row | `/tables/cell/list/{level}/{sid}/{serializer}/` | `/tables/cell/detail/{sid}` |
 | Section | The sections of a row | `/tables/section/list/{level}/{sid}/{serializer}/` | `/tables/section/detail/{sid}` |
 | Version | The versions of a row | `/tables/version/list/{level}/{sid}/{serializer}/` | `/tables/version/detail/{sid}` |
 | Activity | User activities | `/activities/activity/list/{level}/{sid}/{serializer}/` | `/activities/activity/detail/{sid}` |
@@ -75,6 +76,7 @@ Not all levels are available for all `list` API. Error of `HTTP_406_NOT_ACCEPTAB
 | Column List | Yes | - | - |
 | Filter List | Yes | Yes | - |
 | Row List | Yes | Yes | Yes |
+| Cell List | Yes | - | - |
 | Section List | Yes | - | - |
 | Version List | Yes | - | - |
 | Activity | Yes | Yes | - |
@@ -130,6 +132,8 @@ And 3 roles at the project level:
 | Filter Detail | Admin, Member | - | - | Admin, Member | Admin, Member |
 | Row List | Admin, Project Admin, Project Edit, Project View | Project Admin, Project Edit | - | Project Admin, Project Edit | - |
 | Row Detail | Admin, Project Admin, Project Edit, Project View | - | - | Project Admin, Project Edit | - |
+| Cell List | - | Project Admin, Project Edit | - | - | - |
+| Cell Detail | Admin, Project Admin, Project Edit, Project View | - | - | Project Admin, Project Edit | - |
 | Section List | Admin, Project Admin, Project Edit, Project View | Project Admin, Project Edit | - | - | - |
 | Section Detail | Admin, Project Admin, Project Edit, Project View | - | - | Project Admin, Project Edit | - |
 | Version List | Admin, Project Admin, Project Edit, Project View | - | - | - | - |

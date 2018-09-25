@@ -132,8 +132,8 @@ And 3 roles at the project level:
 | Filter Detail | Admin, Member | - | - | Admin, Member | Admin, Member |
 | Row List | Admin, Project Admin, Project Edit, Project View | Project Admin, Project Edit | - | Project Admin, Project Edit | - |
 | Row Detail | Admin, Project Admin, Project Edit, Project View | - | - | Project Admin, Project Edit | - |
-| Cell List | - | Project Admin, Project Edit | - | - | - |
-| Cell Detail | Admin, Project Admin, Project Edit, Project View | - | - | Project Admin, Project Edit | - |
+| Cell List | Admin, Project Admin, Project Edit, Project View | Project Admin, Project Edit | - | - | - |
+| Cell Detail | - | - | - | Project Admin, Project Edit | - |
 | Section List | Admin, Project Admin, Project Edit, Project View | Project Admin, Project Edit | - | - | - |
 | Section Detail | Admin, Project Admin, Project Edit, Project View | - | - | Project Admin, Project Edit | - |
 | Version List | Admin, Project Admin, Project Edit, Project View | - | - | - | - |

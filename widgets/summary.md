@@ -34,3 +34,48 @@ The conditions will be checked before the loading of widget. The errors have to 
 
 * **Missing metadata:** The required metadata does not provided. To solve this error, added the missing metadata to organization, project or record.
 
+## Categories
+
+Here is an overview of all widgets base on their functions.
+
+### Office
+
+* Table
+  * Table
+* Text
+  * Plain Text
+  * Rich Text
+* File
+  * File
+  * Files
+  * Files \(No Preview\)
+
+### Regulation
+
+* Signature
+  * Signatures
+  * Double Signatures
+* Activity
+  * Activity
+* Version Control
+  * Version
+
+### Biology
+
+* Wells
+  * 96-Well Plate
+  * 384-Well Plate
+* Plasmid
+
+### Column Widgets
+
+* Basic
+  * Text
+  * Number
+  * Date
+  * Select
+  * MultiSelect
+  * Boolean
+
+
+

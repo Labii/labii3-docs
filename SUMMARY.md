@@ -37,6 +37,7 @@
 ## Widgets
 
 * [Summary](widgets/summary.md)
+* [Categories](widgets/categories.md)
 * [Plain Text](widgets/plain-text.md)
 * [Rich Text](widgets/rich-text.md)
 * [Table](widgets/table.md)
@@ -45,6 +46,7 @@
 * [96-Well Plate](widgets/96-well-plate.md)
 * [384-Well Plate](widgets/384-well-plate.md)
 * [Backlink](widgets/backlink.md)
+* [Plasmid](widgets/plasmid.md)
 
 ## API
 

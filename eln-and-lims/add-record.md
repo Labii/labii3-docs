@@ -1,14 +1,20 @@
+---
+description: Add new record to Labii
+---
+
 # Add Record
 
 ## Add a Record
 
-A record refer to an experiment, a protocol, a file, et.al Following the steps to create an experiment, protocol, et.al:
+A record refer to an experiment, a protocol, a file, et.al in [Labii Electronic Lab Notebook \(ELN\) and Laboratory Information Management System \(LIMS\)](https://www.labii.com). Following the steps to create an experiment, protocol, et.al:
 
 1. Click the **Add** button in the sidebar.
 2. Select a table name in the dropdown.
 3. Fill in the form and click **Submit**.
 
-![Interface to add an experiment](../.gitbook/assets/quickstart-add-popout.png)
+![Interface to add an experiment](../.gitbook/assets/labii-eln-lims-quickstart-add-experiment.png)
+
+All the steps is identical to the [Quick Start](../quick-start.md).
 
 ## Add Record from a Template
 

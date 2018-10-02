@@ -31,6 +31,10 @@ Labii does not have any limitation on the storage size, we currently charge $10/
 
 ## Compliant
 
+#### What compliant do you follow?
+
+Good Laboratory Practice \(GLP\) and FDA 21 CFR Part 11
+
 ## Competitors
 
 #### What's the difference between Labii and Benchling?

@@ -65,6 +65,7 @@
 * [Filter](api/filter.md)
 * [Row](api/row.md)
 * [Cell](api/cell.md)
+* [Cell](api/cell%20%281%29.md)
 * [Section](api/section.md)
 * [Version](api/version.md)
 * [Activity](api/activity.md)

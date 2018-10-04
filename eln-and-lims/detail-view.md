@@ -1,4 +1,18 @@
+---
+description: Edit/View the content of a record
+---
+
 # Detail View
+
+## Overview
+
+The detail view of a record display the content of the record. This function is mostly used in Electronic Lab Notebook \(ELN\) to define the detail of a processing experiment. It can also used in the Laboratory Information Management System \(LIMS\) to record the detail of a record.
+
+In [Labii ELN & LIMS](https://www.labii.com), the detail view is build up with a collection of sections. Each section holds certain data of the record, and use a specific widget to display and edit the content. For example, a summary section might holds the basic summary of an experiment, and the summary can be updated with a [Rich Text](../widgets/rich-text.md) widget.
+
+![Detail View of an experiment at Labii ELN &amp; LIMS](../.gitbook/assets/detail-view-labii-eln-lims.png)
+
+## Open Detail View
 
 
 

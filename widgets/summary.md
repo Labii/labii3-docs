@@ -66,6 +66,8 @@ Here is an overview of all widgets base on their functions.
   * 96-Well Plate
   * 384-Well Plate
 * Plasmid
+  * Plasmid Viewer
+  * Plasmid Editor
 
 ### Column Widgets
 

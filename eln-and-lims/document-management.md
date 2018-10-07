@@ -48,5 +48,5 @@ Files table is same as all other tables. Click the table to view a list of files
 
 ## Widgets
 
-Files can be inserted into any records with the widget of [**Files**](../widgets/files.md) or [**Files \(No Preview\)**](). Preview is available for text files, office files, pdf files. Files can also been downloaded directly from these widgets. New files can be uploaded directly in the widgets. Please see the widgets for more details.
+Files can be inserted into any records with the widget of [**Files**](../widgets/file.md) or [**Files \(No Preview\)**](). Preview is available for text files, office files, pdf files. Files can also been downloaded directly from these widgets. New files can be uploaded directly in the widgets. Please see the widgets for more details.
 

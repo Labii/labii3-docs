@@ -40,7 +40,7 @@
 * [Plain Text](widgets/plain-text.md)
 * [Rich Text](widgets/rich-text.md)
 * [Table](widgets/table.md)
-* [File](widgets/files.md)
+* [File](widgets/file.md)
 * [Microplate](widgets/microplate.md)
 * [Backlink](widgets/backlink.md)
 * [Plasmid](widgets/plasmid.md)

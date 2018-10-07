@@ -6,7 +6,7 @@ description: The widgets provided by Labii
 
 ## About
 
-[The widgets at Labii ELN & LIMS is a stand-alone function to edit or process certain peace of data](https://blog.labii.com/2018/01/extend-usability-of-your-labii-eln-via-widgets.html). 
+[The widgets at Labii ELN & LIMS is a stand-alone function to edit or process certain peace of data](https://blog.labii.com/2018/01/extend-usability-of-your-labii-eln-via-widgets.html). Labii as a  Electronic Lab Notebook \(ELN\) and Laboratory Information Management System \(LIMS\) service provider, introduced widgets to meet the specific requirements of each research lab.
 
 ### Types
 

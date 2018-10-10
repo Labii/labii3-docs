@@ -31,7 +31,7 @@ Supported files in preview:
 | Word | \*.doc, \*.docx |  |
 | Excel | \*.xls, \*.xlsx |  |
 | PowerPoint | \*.ppt, \*.pptx |  |
-| GenBank | \*.gb, \*.gbk | Display circular and linear map |
+| Plasmid | [\*.gb](https://fileinfo.com/extension/gbk), [\*.gbk](https://fileinfo.com/extension/gbk), [\*.ape](http://jorgensen.biology.utah.edu/wayned/ape/) \(coming soon\) | Display circular and linear map |
 
 ## Readonly View
 

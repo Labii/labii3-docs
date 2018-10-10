@@ -37,8 +37,7 @@
 ## Widgets
 
 * [Summary](widgets/summary.md)
-* [Plain Text](widgets/plain-text.md)
-* [Rich Text](widgets/rich-text.md)
+* [Text](widgets/text.md)
 * [Table](widgets/table.md)
 * [File](widgets/file.md)
 * [Microplate](widgets/microplate.md)
@@ -62,7 +61,6 @@
 * [Filter](api/filter.md)
 * [Row](api/row.md)
 * [Cell](api/cell.md)
-* [Cell](api/cell%20%281%29.md)
 * [Section](api/section.md)
 * [Version](api/version.md)
 * [Activity](api/activity.md)

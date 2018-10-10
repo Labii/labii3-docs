@@ -31,7 +31,7 @@ Administrators have permission to control what widgets to use for the users. [Se
 
 The widget menu is customizable in detail view. Include those commonly used widgets in the menu can speed up your documentation process. [See detail here](../settings/widgets.md). 
 
-![Add Menu of Widets](../.gitbook/assets/widgets-add-menu-labii-eln-lims.png)
+> ![Add Menu of Widets](../.gitbook/assets/widgets-add-menu-labii-eln-lims.png)
 
 ## Metadata Labels
 
@@ -63,12 +63,12 @@ Here is an overview of all widgets base on their functions.
 
 ### Office
 
-* Table
+* [Table](table.md)
   * Table
-* Text
+* [Text](text.md)
   * Plain Text
   * Rich Text
-* File
+* [File](file.md)
   * File
   * Files
   * Files \(No Preview\)
@@ -85,10 +85,10 @@ Here is an overview of all widgets base on their functions.
 
 ### Biology
 
-* Wells
+* [Microplate](microplate.md)
   * 96-Well Plate
   * 384-Well Plate
-* Plasmid
+* [Plasmid](plasmid.md)
   * Plasmid Viewer
   * Plasmid Editor
 

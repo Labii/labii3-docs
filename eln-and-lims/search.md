@@ -65,11 +65,21 @@ The value to lookup.
 * Use `true` or `false` for boolean. 
 * Use `YYYY-MM-DD` for date.
 
-## Examples
+## Predefined Filters
 
-**Signatures:**
+Building a query is difficult, Labii provides some predefined filters to save your time. Please [contact us](mailto:help@labii.com) if you need help in building custom queries. 
 
-* Find all signed/unsigned documents `is_locked=true/false`
-* Find all signed/unsigned documents by a specific role \(role=Author\) `is_locked=true/false&signature__role__iexact=Author`
-* Find all signed/unsigned documents by a user `is_locked=true/false&signature__signer__sid=xxx is_locked=true/false&signature__signer__first_name=xxx is_locked=true/false&signature__signer__last_name=xxx is_locked=true/false&signature__signer__first_name=xxx&signature__signer__last_name=xxx`
+Click **Predefined Filters** in the dropdown to open list of queries ready to use.
+
+![List of Predefined Queries](../.gitbook/assets/predefined-filters-labii-eln-lims.png)
+
+Here is a list of predefined queries available to use:
+
+| Name | Description |
+| :--- | :--- |
+| My Unsigned | The experiments that awaiting for me to sign. |
+| My Signed | The experiments that have signed by me. |
+| My Co-Authored | The experiments that listed me as Co-Author. |
+| My Witnessed | The experiments that listed me as Witness. |
+| My Open | The experiments that waiting for me to sign, as Author or Co-Author. |
 

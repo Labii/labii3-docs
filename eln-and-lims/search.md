@@ -71,7 +71,7 @@ Building a query is difficult, Labii provides some predefined filters to save yo
 
 Click **Predefined Filters** in the dropdown to open list of queries ready to use. Click **Use** to try the Filter; click **Save** to save this filter.
 
-![The predefined filters](../.gitbook/assets/predefined-filters-labii-eln-lims.png)
+![Predefined Queries](../.gitbook/assets/predefined-filters-labii-eln-lims%20%281%29.png)
 
 Here is a list of predefined queries available to use:
 

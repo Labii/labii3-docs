@@ -146,7 +146,7 @@ Filter List
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="query" type="object" required=true %}
-array of \[field, expr, value\]
+{field\_\_expr: value}
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
@@ -325,7 +325,7 @@ Filter Detail
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="query" type="string" required=false %}
-
+Please note this is different to POST
 {% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}

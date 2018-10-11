@@ -69,9 +69,9 @@ The value to lookup.
 
 Building a query is difficult, Labii provides some predefined filters to save your time. Please [contact us](mailto:help@labii.com) if you need help in building custom queries. 
 
-Click **Predefined Filters** in the dropdown to open list of queries ready to use.
+Click **Predefined Filters** in the dropdown to open list of queries ready to use. Click **Use** to try the Filter; click **Save** to save this filter.
 
-![List of Predefined Queries](../.gitbook/assets/predefined-filters-labii-eln-lims.png)
+![The predefined filters](../.gitbook/assets/predefined-filters-labii-eln-lims.png)
 
 Here is a list of predefined queries available to use:
 

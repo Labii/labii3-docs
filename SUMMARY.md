@@ -40,6 +40,7 @@
 * [Text](widgets/text.md)
 * [Table](widgets/table.md)
 * [File](widgets/file.md)
+* [Barcode](widgets/barcode.md)
 * [Microplate](widgets/microplate.md)
 * [Backlink](widgets/backlink.md)
 * [Plasmid](widgets/plasmid.md)

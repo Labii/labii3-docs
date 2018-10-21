@@ -83,6 +83,11 @@ Here is an overview of all widgets base on their functions.
 * Version Control
   * Version
 
+### LIMS
+
+* Barcode
+  * QRCode
+
 ### Biology
 
 * [Microplate](microplate.md)
@@ -101,6 +106,10 @@ Here is an overview of all widgets base on their functions.
   * Select
   * MultiSelect
   * Boolean
+  * ForeignKey
+  * ForeignKeys
+  * Member
+  * Members
 
 
 

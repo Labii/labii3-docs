@@ -37,6 +37,24 @@ On default, Labii will create new records for all imported records. If you want 
 Each field can only be matched for once, except the **metadata**. If metadata is selected, the title will be treat as metadata label and value will be treat as metadata value.
 {% endhint %}
 
+### Prepare Import Table
+
+Although Labii provides flexibilities in number of columns. Certain data type have to be prepared in a proper way to imported correctly.
+
+We recommend you to prepare the data in a excel sheet or google sheets and then save the data as \*.tsv.
+
+Here are some important notes to pay attention to:
+
+* First row as title. Please always include title at the first row.
+* Use `#` at the beginning of a row to ignore. The whole row with **\#** at the beginning will be excluded from importing.
+* The number of column does not matter. You can ignore a column via not selecting a matched column.
+* The order of column does not matter.
+* Use **Unique ID \(UID\)** to match and update existing records. The UIDs that do not match to records in database will be ignored and a new UID will be assigned. **UID is mostly used to update an existing records.**
+* For **Select** Use the exact value of your choose. use **`,`** to separate multiple values for **MultiSelect**. 
+* For **ForeignKey** columns, use **UID** to match. use **`,`** to separate multiple UIDs.
+* For **Boolean** columns, Use **true** for true and **false** for false.
+* For **Date** columns, use **YYYY-MMMM-DD** 
+
 ## Export
 
 Click the **Menu** drop-down list and click **Export as TSV**. The files will download on your computer. 

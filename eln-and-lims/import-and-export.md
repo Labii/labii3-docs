@@ -51,7 +51,7 @@ Here are some important notes to pay attention to:
 * The order of column does not matter.
 * Use **Unique ID \(UID\)** to match and update existing records. The UIDs that do not match to records in database will be ignored and a new UID will be assigned. **UID is mostly used to update an existing records.**
 * For **Select** Use the exact value of your choose. use **`,`** to separate multiple values for **MultiSelect**. 
-* For **ForeignKey** columns, use **UID** to match. use **`,`** to separate multiple UIDs.
+* For **ForeignKey** columns, use **UID** or **name** to match. use **`,`** to separate multiple **UIDs** or **names** for **ForeignKeys**.
 * For **Boolean** columns, Use **true** for true and **false** for false.
 * For **Date** columns, use **YYYY-MMMM-DD** 
 

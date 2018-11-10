@@ -85,8 +85,11 @@ Here is an overview of all widgets base on their functions.
 
 ### LIMS
 
-* Barcode
+* [Barcode](barcode.md)
   * QRCode
+* Foreign Key Relationships
+  * Backlink
+  * Section Citation
 
 ### Biology
 

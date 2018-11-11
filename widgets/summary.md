@@ -75,7 +75,7 @@ Here is an overview of all widgets base on their functions.
 
 ### Regulation
 
-* Signature
+* [Signature](signature.md)
   * Signatures
   * Double Signatures
 * Activity
@@ -87,7 +87,7 @@ Here is an overview of all widgets base on their functions.
 
 * [Barcode](barcode.md)
   * QRCode
-* Foreign Key Relationships
+* [Foreign Key Relationships](foreign-key-relationships.md)
   * Backlink
   * Section Citation
 

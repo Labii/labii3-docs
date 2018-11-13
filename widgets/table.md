@@ -1,6 +1,18 @@
+---
+description: Manage tabula data.
+---
+
 # Table
 
 ## Overview
+
+[Labii ELN & LIMS](https://www.labii.com/) use Table widget to provide Excel like functions to Electronic Lab Notebook.
+
+![Table Interface of Labii ELN &amp; LIMS](../.gitbook/assets/table-labii-eln-lims.png)
+
+## View & Edit
+
+The view interface and edit interface are identical except value can be changed at the Edit mode.
 
 ## Formula support
 
@@ -25,4 +37,8 @@ Labii ELN & LIMS supports _Formulas_ to process formula expressions defined in t
 
 * Not working with filtering and column sorting;
 * Not working with trimming rows.
+
+## Data import
+
+The table widget supports data import \*.xlsx, \*.tsv, \*.csv. Simply drag and drop a file to the widget and the content of the file will be loaded into the table.
 

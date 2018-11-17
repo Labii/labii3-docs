@@ -65,7 +65,7 @@ The value to lookup.
 * Use `true` or `false` for boolean. 
 * Use `YYYY-MM-DD` for date.
 
-## Advanced Filter
+### Advanced Filter
 
 * Filter by a field: `name__icontains=test`
 * Filter by multiple fields: `name__icontains=test&is_archived=false`
@@ -74,7 +74,7 @@ The value to lookup.
   * **OR** relationship shall be expressed in a array: `[{"name__icontains":"test"}, {"is_archived":false}]`
 * Filter by multiple filter set: `filter__sid=xxx,xxx`, different filter set is limited via **AND** relationship.
 
-## Predefined Filters
+### Predefined Filters
 
 Building a query is difficult, Labii provides some predefined filters to save your time. Please [contact us](mailto:help@labii.com) if you need help in building custom queries. 
 

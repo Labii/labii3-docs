@@ -65,6 +65,15 @@ The value to lookup.
 * Use `true` or `false` for boolean. 
 * Use `YYYY-MM-DD` for date.
 
+## Advanced Filter
+
+* Filter by a field: `name__icontains=test`
+* Filter by multiple fields: `name__icontains=test&is_archived=false`
+* Filter by a filter set: `filter__sid=xxx`, where in a filter set:
+  * **AND** relationship shall be expressed in a json object, separate by comma: `{"name__icontains":"test", "is_archived":false}`
+  * **OR** relationship shall be expressed in a array: `[{"name__icontains":"test"}, {"is_archived":false}]`
+* Filter by multiple filter set: `filter__sid=xxx,xxx`, different filter set is limited via **AND** relationship.
+
 ## Predefined Filters
 
 Building a query is difficult, Labii provides some predefined filters to save your time. Please [contact us](mailto:help@labii.com) if you need help in building custom queries. 
@@ -82,4 +91,6 @@ Here is a list of predefined queries available to use:
 | My Co-Authored | The experiments that listed me as Co-Author. |
 | My Witnessed | The experiments that listed me as Witness. |
 | My Open | The experiments that waiting for me to sign, as Author or Co-Author. |
+
+
 

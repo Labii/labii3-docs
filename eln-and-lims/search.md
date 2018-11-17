@@ -72,7 +72,9 @@ The value to lookup.
 * Filter by a filter set: `filter__sid=xxx`, where in a filter set:
   * **AND** relationship shall be expressed in a json object, separate by comma: `{"name__icontains":"test", "is_archived":false}`
   * **OR** relationship shall be expressed in a array: `[{"name__icontains":"test"}, {"is_archived":false}]`
-* Filter by multiple filter set: `filter__sid=xxx,xxx`, different filter set is limited via **AND** relationship.
+* Filter by multiple filter set: 
+  * AND: `filter__sid=xxx,xxx`
+  * OR: `filter__sid__in=xxx,xxx`
 
 ### Predefined Filters
 

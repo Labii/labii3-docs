@@ -14,6 +14,16 @@ Please read more at [https://www.labii.com/features/](https://www.labii.com/feat
 
 Please read more at [https://www.labii.com/features/](https://www.labii.com/features/)
 
+### What type of deployment could Labii support? 
+
+> Premises based: Customer installs, operates and maintains the software on its own servers; and stores the data in its own data center\(s\). 
+>
+> Hosted / Software as a Service: A third-party installs, operates and maintains the software on its own or another entity’s servers; and stores the data in its own or another entity’s data center. Processing and data are physically or virtually segregated from other customers.
+
+Labii provide cloud-based services \(LEN & LIMS\) for the subscription and pay-per-use plans. 
+
+A promises-based version \(local version\) is also available. Please contact sales@labii.com for more details. 
+
 ## Files
 
 ### **What is the file size limit in uploading?**

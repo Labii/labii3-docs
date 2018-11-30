@@ -30,7 +30,7 @@ Wheres,
 
 ## Link
 
-Each API has a list `view` and `detail` view.
+Each API has a list `list` and `detail` view.
 
 | API | Description | List view | Detail view |
 | :--- | :--- | :--- | :--- |

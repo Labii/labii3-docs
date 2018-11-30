@@ -50,7 +50,7 @@
 
 * [Overview](api/overview.md)
 * [Authentication](api/authentication.md)
-* [Organization](api/organization.md)
+* [Methods](api/methods.md)
 * [Organization Member](api/organization-member.md)
 * [Team](api/team.md)
 * [Organization Widget](api/organization-widget.md)
@@ -68,8 +68,8 @@
 * [Activity](api/activity.md)
 * [Widget](api/widget.md)
 
-## Change Log
+## Advanced Usage
 
-* [Labii ELN & LIMS \(v3\)](change-log/labii-eln-and-lims-v3.md)
-* [API](change-log/api.md)
+* [Track sample consumption](advanced-usage/track-sample-consumption.md)
+* [Goal management](advanced-usage/goal-management.md)
 

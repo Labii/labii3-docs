@@ -1,4 +1,8 @@
-# Organization
+---
+description: Https methods
+---
+
+# Methods
 
 {% api-method method="get" host="{{ base\_url }}" path="/organizations/organization/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}

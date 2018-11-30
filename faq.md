@@ -54,6 +54,18 @@ Labii does not have any limitation on the storage size, we currently charge $10/
 
 Good Laboratory Practice \(GLP\) and FDA 21 CFR Part 11
 
+## Price
+
+### How much do you cost?
+
+* $960/seat/year for subscription option, learn more at [https://www.labii.com/\#price](https://www.labii.com/#price)
+* $0.1/record for pay-per-use option, learn more at [https://www.labii.com/\#price](https://www.labii.com/#price)
+
+### Can you provide discount?
+
+* Yes, we offer **50% discount for academic users**. The email domain have to be \*.edu
+* For small startup companies, please contact sales@labii.com for the discount info
+
 ## Competitors
 
 ### What's the difference between Labii and Benchling?

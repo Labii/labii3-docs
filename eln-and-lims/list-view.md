@@ -1,8 +1,18 @@
+---
+description: View multiple results in a list
+---
+
 # List View
+
+## Overview
+
+The List view of [**Labii** **electronic lab notebook \(ELN\)** and **laboratory information management system \(LIMS\)**](https://www.labii.com) is a quick way to view all structured data managed in Labii.
+
+This documentation covers all relevant functions related to the list view.
 
 ## Layout
 
-The list view showing a list of records. It contains a navigation bar, a table body, and a table footer.
+The list view contains a navigation bar, a table body, and a table footer.
 
 The Navigation bar contains these items:
 
@@ -15,7 +25,9 @@ The Navigation bar contains these items:
 
 ![List view of experiments](../.gitbook/assets/screen-shot-2018-08-28-at-2.10.55-pm.png)
 
-The first column and last column of table body is alway a Checkbox and record status icons.
+The first column of table body is alway a Checkbox, use this checkbox to select a record for Bulk operations.
+
+The last column of table body is record status icons:
 
 ![](../.gitbook/assets/screen-shot-2018-08-28-at-1.48.29-pm.png)
 
@@ -39,11 +51,11 @@ Data can be updated directly in the list view. To edit the values of contents in
 One column data for multiple records can be updated at the same time. To edit multiple or all projects at once, 
 
 1. Select the checkboxes of which projects you would like to edit, or click the top box to select all.
-2. Click the **Bulk Edit** button.
-3. Select which column you want to edit and the new value. 
+2. Click the **Bulk Edit** button in the Nav bar.
+3. Select which column you want to edit and provide a new value. 
 4. Click **Submit**.
 
-![Bulk Edit](../.gitbook/assets/bulk-edit.png)
+![Bulk Edit Interface](../.gitbook/assets/bulk-edit.png)
 
 ## In-Page Search
 

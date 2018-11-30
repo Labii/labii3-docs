@@ -18,15 +18,9 @@ All the steps is identical to the [Quick Start](../quick-start.md).
 
 ## Add Record from a Template
 
-To create an records that is similar to existing ones, use the **Add from template** function. Any records can be set as template vis set `is_template=true`. To add a record from a existing template:
+To create a records that is similar to existing ones, use the **Add from template** function. Any records can be set as template vis set `is_template=true`. 
 
-1. Click the **Add** button from the sidebar.
-2. Click the **"+"** icon next to the table name you are adding. 
-3. Search for or select a template. 
-4. The form will pre-filled with the value from the template.
-5. Click **Submit** to submit.
-
-![](../.gitbook/assets/add-template.jpg)
+To add a record from a existing template is same to [Add a Record](add-record.md#add-a-record). Simple select an Template from the above form. 
 
 {% hint style="info" %}
 Record creates from a template will have same column data and sections as the template, but the section data will be empty.
@@ -34,7 +28,7 @@ Record creates from a template will have same column data and sections as the te
 
 ## Duplicate From Existing Record
 
-To create an record that is identical to the existing one, use **Duplicate** function. 
+To create a record that is identical to the existing one, use **Duplicate** function. 
 
 1. Click on the table name you have an existing record of in the sidebar. 
 2. Click on the record name you want to duplicate and a panel should open on the right. 

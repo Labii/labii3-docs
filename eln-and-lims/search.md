@@ -18,6 +18,8 @@ If want to search any records match to one or two phases, use global search.
 
 On the sidebar, click on **Search** to search. 
 
+![Click to open Global Search](../.gitbook/assets/global-search-labii-eln-lims.png)
+
 ![Global Search](../.gitbook/assets/search-global.png)
 
 ## Filter

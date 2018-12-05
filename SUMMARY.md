@@ -48,7 +48,6 @@
 * [Overview](api/overview.md)
 * [Authentication](api/authentication.md)
 * [Methods](api/methods.md)
-* [Organization Member](api/organization-member.md)
 * [Team](api/team.md)
 * [Organization Widget](api/organization-widget.md)
 * [Statement](api/statement.md)

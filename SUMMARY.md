@@ -28,11 +28,8 @@
 
 ## Account
 
-* [Sign Up](account/sign-up.md)
-* [Login](account/login.md)
-* [Forget password](account/forget-password.md)
+* [Authentication](account/authentication.md)
 * [Add New member](account/add-a-new-member.md)
-* [Sign out](account/sign-out.md)
 
 ## Widgets
 

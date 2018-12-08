@@ -72,7 +72,7 @@ This section show off many cool function of File widget.
 
 ### Plasmid Map
 
-The plasmid map of a Genbank file can be displayed in a circular or linear map.
+The plasmid map of a Genbank file can be displayed in a circular or linear map. This function is modified from [openVectorEditor](https://github.com/TeselaGen/openVectorEditor).
 
 ![Genbank file preview for a plasmid map in circular ](../.gitbook/assets/file-plasmid-circular-view-labii-eln-lims.png)
 

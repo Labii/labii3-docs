@@ -38,6 +38,7 @@
 * [Table](widgets/table.md)
 * [File](widgets/file.md)
 * [Signature](widgets/signature.md)
+* [Steps](widgets/steps.md)
 * [Barcode](widgets/barcode.md)
 * [Foreign Key Relationships](widgets/foreign-key-relationships.md)
 * [Microplate](widgets/microplate.md)

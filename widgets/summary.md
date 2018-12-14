@@ -64,20 +64,20 @@ Here is an overview of all widgets base on their functions.
 ### Office
 
 * [Table](table.md)
-  * Table
+  * [Table](table.md#overview)
 * [Text](text.md)
-  * Plain Text
-  * Rich Text
+  * [Plain Text](text.md#plain-text)
+  * [Rich Text](text.md#rich-text)
 * [File](file.md)
-  * File
-  * Files
-  * Files \(No Preview\)
+  * [File](file.md#overview)
+  * [Files](file.md#overview)
+  * [Files \(No Preview\)](file.md#overview)
 
 ### Regulation
 
 * [Signature](signature.md)
-  * Signatures
-  * Double Signatures
+  * [Signatures](signature.md#overview)
+  * [Double Signatures](signature.md#overview)
 * Activity
   * Activity
 * Version Control
@@ -86,16 +86,21 @@ Here is an overview of all widgets base on their functions.
 ### LIMS
 
 * [Barcode](barcode.md)
-  * QRCode
+  * [QRCode](barcode.md#summary)
 * [Foreign Key Relationships](foreign-key-relationships.md)
-  * Backlink
+  * [Backlink](foreign-key-relationships.md#backlink)
+
+### Protocol
+
+* Steps
+  * Steps
   * Section Citation
 
 ### Biology
 
 * [Microplate](microplate.md)
-  * 96-Well Plate
-  * 384-Well Plate
+  * [96-Well Plate](microplate.md#overview)
+  * [384-Well Plate](microplate.md#overview)
 * [Plasmid](plasmid.md)
   * Plasmid Viewer
   * Plasmid Editor

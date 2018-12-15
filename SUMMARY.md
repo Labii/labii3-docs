@@ -43,6 +43,7 @@
 * [Foreign Key Relationships](widgets/foreign-key-relationships.md)
 * [Microplate](widgets/microplate.md)
 * [Plasmid](widgets/plasmid.md)
+* [CGW](widgets/cgw.md)
 
 ## API
 

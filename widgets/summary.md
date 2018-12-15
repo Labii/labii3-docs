@@ -92,9 +92,9 @@ Here is an overview of all widgets base on their functions.
 
 ### Protocol
 
-* Steps
-  * Steps
-  * Section Citation
+* [Steps](steps.md)
+  * [Steps](steps.md#steps)
+  * [Section Citation](steps.md#section-citation)
 
 ### Biology
 
@@ -104,6 +104,10 @@ Here is an overview of all widgets base on their functions.
 * [Plasmid](plasmid.md)
   * Plasmid Viewer
   * Plasmid Editor
+* [CGW](cgw.md) \([Clinical Genomicist Workstation](https://www.pieriandx.com/clinical-genomics-software-for-next-generation-sequencing)\)
+  * [CGWCase](cgw.md#cgwcase)
+  * [CGWUploadFile](cgw.md#cgwuploadfile)
+  * [CGWJob](cgw.md#cgwjob)
 
 ### Column Widgets
 

@@ -6,11 +6,11 @@ description: Showing the steps of a protocol
 
 ## Overview
 
-The steps of a protocol is critical, especially for [Electronic Lab Notebook](https://www.labii.com). The steps can be display in many ways in [Labii ELN & LIMS](https://www.labii.com), specifically:
+The steps of a protocol are critical, especially for [Electronic Lab Notebook](https://www.labii.com). The steps can be displayed in many ways in [Labii ELN & LIMS](https://www.labii.com), specifically:
 
 * Use [Plain Text ](text.md#plain-text)or [Rich Text](text.md#rich-text) to display text format of steps.
 * Use Section Citation to display the steps from a protocol.
-* Use [File](file.md#overview), [Files](file.md#overview) to display the steps from a external word or pdf file.
+* Use [File](file.md#overview), [Files](file.md#overview) to display the steps from an external word or pdf file.
 * Last, but not least, use the **Steps** widget to tracking the complete status of each step.
 
 Labii ELN & LIMS currently provides these widgets:
@@ -22,7 +22,7 @@ Labii ELN & LIMS currently provides these widgets:
 
 ## Steps
 
-Steps is a new widget designed to tracking the status of each step. User has option to mark which step has been completed. The widget will also capture who and when does a step completed.
+Steps is a new widget designed to track the status of each step. User has the option to mark which step has been completed. The widget will also capture who and when does a step completed.
 
 ![Steps Widget](../.gitbook/assets/steps-labii-eln-lims.png)
 

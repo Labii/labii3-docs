@@ -39,11 +39,44 @@ To add a section:
 
 Click more icon and select Change Section to edit the section. The name and description of the section can be updated.
 
-![Drop down menu of section more button](../.gitbook/assets/edit-section-labii-eln-lims.png)
+![Drop down menu of section more button](../.gitbook/assets/section-menu-labii-eln-lims.png)
 
 ### Edit section content
 
 Click the edit icon or "**Edit Content**" in the dropdown menu to update the content of the section. Based on what widget the section is using, the interface will various a lot. The usage of each widget can be found in the [Widget](../settings/widgets.md). 
+
+### Reset section content
+
+Click the "**Reset Content**" to reset the content of the section. This can be used when duplicating from an existing record and the content of the section need to be cleaned.
+
+### Save default section data
+
+To avoid configuring certain widgets for all new records, the default value of a section can be saved and re-used. Once the default section value is saved, the value will be loaded automatically when save section is created.
+
+The data saved are specific to the **Table**, **Widget** and **Section Name**. 
+
+Labii provides 3 levels of default data:
+
+1. **Personal level \(Save as my default\)**, for your personal preference.
+2. **Project level \(Save as project default\)**, specific to a project.
+3. **Organization level \(Save as organization default\)**, specific to your organization.
+
+The data will be used in order. If the personal default data is saved, it will be used first. If the personal default data is not available, then the project default data will be used. If both personal default data and project default data are not available, then the organization default data will be used.
+
+{% hint style="info" %}
+Only the project managers can save the project default data.
+
+Only the administrators can save the organization default data.
+{% endhint %}
+
+**Usage:**
+
+If you need to set up the signers for all of your experiments, save the settings of authors, witness, et.al at your personal level. Then the same configuration will be added automatically.
+
+1. Create a section named "**Signatures**", choose widget "**Signatures**".
+2. Add the authors and witnesses.
+3. Click "**Save as my default**"
+4. In the new experiment, when you create a section "Signatures" with widget "Signatures", the same settings will be added directly.
 
 ### Refresh section
 
@@ -60,26 +93,6 @@ The content of the section can be collapse and expand via clicking section heade
 ### Change order
 
 The order of section can be change via dragging the section header.
-
-### Save default section value
-
-Use this function to save default section value for easy configuration. Once the default section value is saved, the value will be loaded automatically when save section is created.
-
-The default section value is specific to:
-
-* section name
-* section widget
-* table
-
-The default section value can only been applied when above 3 parameters matches. It is saved as a metadata with the label of `SECTIONVALUE_[TABLE]_[WIDGET]_[SECTION NAME]`
-
-The default section value can be set at 3 levels, the metadata can be saved in all or any of these levels:
-
-1. organization
-2. project
-3. member
-
-Wheres, member &gt; project &gt; organization. Labii will always use the metadata at the member level if exists, then project and organization.
 
 ## Print
 

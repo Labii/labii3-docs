@@ -36,7 +36,7 @@ Click the **delete** icon next to a task to delete a task.
 
 ### Complete a task
 
-Click the checkbox of a task to complete the task, click the checkbox again to undo the task.
+Click the checkbox of a task to complete the task, click the checkbox again to undo the task. Due tasks are showing in red color.
 
 ### Change order
 

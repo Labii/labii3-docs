@@ -6,20 +6,18 @@ description: Enhance your ELN & LIMS with goal management
 
 ## Overview
 
-It is the end of year and it is that time of the year to review what you did in last year and what you are planning to do for the coming new year. 
-
-With Labii ELN & LIMS, you are able to management your research goals, and more, categorize each experiment note based on your research goal.
+With [Labii ELN and LIMS](https://www.labii.com) you will be able to conveniently manage your research goal. You’ll also be able to categorize each experiment note according to your research goal. For the yearly review, Labii application makes it easy to carry out review all that you did the previous and current years. It also enables you to input your plans for the coming year.   
 
 ## Before start
 
-Before getting started, the below widgets are required and please make sure they have been activated. [Click here to learn how to activate or deactivate a widget. ](../settings/widgets.md)
+Before getting started, the following widgets are required and they must be activated prior to use.  [Click here to learn how to activate or deactivate a widget. ](../settings/widgets.md)
 
 * [Rich Text](../widgets/text.md)
 * [Table](../widgets/table.md)
 * [Backlink](../widgets/foreign-key-relationships.md)
 
 {% hint style="info" %}
-Note: only the administrators can perform the actions.
+Note: Only the administrators will be permitted to make changes.
 {% endhint %}
 
 ## Configuration
@@ -35,12 +33,12 @@ Note: only the administrators can perform the actions.
 
 ### 2\) [Create the following **columns**](../settings/tables.md#customize-column) for the table **goals:**
 
-1. **year**, the year of the goal
-2. **date\_start**, the start date of the goal
-3. **date\_end**, the end date of the goal
-4. **status**, the status of the goal
-5. **parent**, what goal is the goal subsequent to, use this field to create a big goal and many more detailed small goals
-6. **assignee**, who should be responsible to the goal
+1. **year**, The year the research goal commenced
+2. **date\_start**, This shows the commencement date of the goal
+3. **date\_end**, The date the goal was completed
+4. **status**, shows the current status of the goal
+5. **parent**, This column is used to create a bigger goal consisting of many more detailed small goals
+6. **assignee**, shows the person responsible for the goal
 
 ![Column settings for Goals](../.gitbook/assets/goal-columns-labii-eln-lims.png)
 
@@ -63,25 +61,21 @@ Default value for the status \(the value can be updated later, please keep one v
 
 ### 3\) [Create the following **sections**](../settings/tables.md#customize-default-sections):
 
-1. **Overview**, brief description of the goal
-2. **What to expect**, what's the outcome of the goal
-3. **Cost estimation**, how much would it cost to accomplish the goal
-4. **Sub Goals**, other goals that related to this goal
-5. **Jobs**, the jobs related to this goal. This section can be changed to `experiments`, `protocols`, et.al.
-6. **Detail**, the column value of the goal
-7. **Review**, the year-end review of the goal. What has been done, how much it cost.
+1. **Overview**, To give a brief description of the goal
+2. **What to expect**, This is where you indicate the proposed outcome of the goal
+3. **Cost estimation**, The total cost estimation that would be enough to accomplish the goal should be stated in this section.
+4. **Sub Goals**, All other related goals should be stated here
+5. **Jobs**, The jobs related to this goal are indicated in this section. This section can be changed to `experiments`, `protocols`, et.al.
+6. **Detail**, This shows the column value of the goal
+7. **Review**, This section is where the year-end review of the goal is clearly stated. How much work has been done, the cost etc are all indicated in the review section.
 
 ![Default sections of goal](../.gitbook/assets/goal-sections-labii-eln-lims.png)
 
 ### 4\) Add ForeignKey relationship to the goal:
 
-To link experiment notes with goals, you need to first add a ForeignKey column in the table of **experiments**. And then select a goal you created each time when creating an experiment note.
+You need to first add a **ForeignKey** column in the table of experiments in order to link experiment notes with goals. This is then followed by selecting a goal you created each time an experiment note is created.
 
 ### 5\) Year-end Review:
 
-Don't forget to review your goals at the end of year. Specifically described what has been done, what need to be improved, what is the actually cost of the goal.
-
-Also, do not forget to update the status of the goal. 
-
-Hope you all getting successfully completed goals!
+The annual review of your goals should be carried out. The review should specifically describe what has been done, what need to be improved upon and the actually cost of the goal. You must not also forget to update the status of the goal.
 

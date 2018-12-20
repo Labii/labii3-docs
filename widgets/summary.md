@@ -61,6 +61,13 @@ The conditions will be checked before the loading of widget. The errors have to 
 
 Here is an overview of all widgets base on their functions.
 
+### General
+
+* Tasks
+  * Tasks
+* Section
+  * [Section Citation](steps.md#section-citation)
+
 ### Office
 
 * [Table](table.md)
@@ -90,11 +97,10 @@ Here is an overview of all widgets base on their functions.
 * [Foreign Key Relationships](foreign-key-relationships.md)
   * [Backlink](foreign-key-relationships.md#backlink)
 
-### Protocol
+### Protocols
 
 * [Steps](steps.md)
   * [Steps](steps.md#steps)
-  * [Section Citation](steps.md#section-citation)
 
 ### Biology
 

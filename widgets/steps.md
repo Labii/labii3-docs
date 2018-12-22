@@ -24,7 +24,7 @@ Labii ELN & LIMS currently provides these widgets:
 
 Steps is a new widget designed to track the status of each step. User has the option to mark which step has been completed. The widget will also capture who and when does a step complete.
 
-![Steps Widget](../.gitbook/assets/steps-labii-eln-lims.png)
+![Steps of an experiment](../.gitbook/assets/steps-labii-eln-lims.png)
 
 Each step contains 1\) a step order, 2\) the step content, 3\) action buttons.
 

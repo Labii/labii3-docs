@@ -38,6 +38,7 @@
 * [Table](widgets/table.md)
 * [File](widgets/file.md)
 * [Tasks](widgets/tasks.md)
+* [Comments](widgets/comments.md)
 * [Signature](widgets/signature.md)
 * [Steps](widgets/steps.md)
 * [Barcode](widgets/barcode.md)

@@ -63,8 +63,11 @@ Here is an overview of all widgets base on their functions.
 
 ### General
 
-* Tasks
-  * Tasks
+* [Tasks](tasks.md)
+  * [Tasks](tasks.md#tasks)
+* Comments
+  * Comments
+  * GLP Comments
 * Section
   * [Section Citation](steps.md#section-citation)
 

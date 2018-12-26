@@ -10,6 +10,16 @@ The List view of [**Labii** **electronic lab notebook \(ELN\)** and **laboratory
 
 This documentation covers all relevant functions related to the list view.
 
+## View a table
+
+Table can be quickly accessed via clicking the table name in the side bar. Only those tables with `show_in_menu=true` will be included. 
+
+![](../.gitbook/assets/list-table-labii-eln-lims.png)
+
+More tables can be accessed via clicking the Tables on the top. Select a table and the list of content will be displayed.
+
+![Table menu](../.gitbook/assets/list-table-menu-labii-eln-lims.png)
+
 ## Layout
 
 The list view contains a navigation bar, a table body, and a table footer.

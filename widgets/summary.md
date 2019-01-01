@@ -23,17 +23,17 @@ Two types of widgets are available in [Labii ELN & LIMS](https://www.labii.com):
 * `is_archived=true/false`,  if true, the widget is not available to use.
 * `metadata_labels`, list of metadata labels that required for the widget. The metadata can be set at the organization, project or record level. [See details here](summary.md#metadata-labels). 
 
-## Enable Widgets
+## Enable widgets
 
 Administrators have permission to control what widgets to use for the users. [See details here](../settings/widgets.md). 
 
-## Custom Widget Menu
+## Custom widget menu
 
 The widget menu is customizable in detail view. Include those commonly used widgets in the menu can speed up your documentation process. [See detail here](../settings/widgets.md). 
 
 > ![Add Menu of Widets](../.gitbook/assets/widgets-add-menu-labii-eln-lims.png)
 
-## Metadata Labels
+## Metadata labels
 
 The specific variables can be provided via adding metadata to your **organization**, **project**, or **record**. The metadata labels is defined in the `metadata_labels` field of widget. If these field is empty, no metadata need to set up.
 
@@ -57,17 +57,23 @@ The conditions will be checked before the loading of widget. The errors have to 
 
 * **Missing metadata:** The required metadata does not provided. To solve this error, added the missing metadata to organization, project or record.
 
+## Default value
+
+Most of widgets require configurations, the default configuration value can be saved. [See here for more details](../eln-and-lims/detail-view.md#save-default-section-data).
+
 ## Categories
 
 Here is an overview of all widgets base on their functions.
 
 ### General
 
+* [Columns](columns.md)
+  * [Columns](columns.md#columns)
 * [Tasks](tasks.md)
   * [Tasks](tasks.md#tasks)
-* Comments
-  * Comments
-  * GLP Comments
+* [Comments](comments.md)
+  * [Comments](comments.md#comments)
+  * [GLP Comments](comments.md#comments)
 * Section
   * [Section Citation](steps.md#section-citation)
 
@@ -88,6 +94,7 @@ Here is an overview of all widgets base on their functions.
 * [Signature](signature.md)
   * [Signatures](signature.md#overview)
   * [Double Signatures](signature.md#overview)
+  * [Triple Signatures](signature.md#signature)
 * Activity
   * Activity
 * Version Control

@@ -34,6 +34,7 @@
 ## Widgets
 
 * [Summary](widgets/summary.md)
+* [Columns](widgets/columns.md)
 * [Text](widgets/text.md)
 * [Table](widgets/table.md)
 * [File](widgets/file.md)

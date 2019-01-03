@@ -8,6 +8,64 @@ description: Https methods
 
 `base_url=https://api.labii.com/v1/`
 
+## Common Methods
+
+{% api-method method="get" host="" path="/\[app\]/\[table\]/list/{level}/{sid}/{serializer}/" %}
+{% api-method-summary %}
+\* List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Querying a list of objects. See here \(https://docs.labii.com/api/overview\) for more details of app and table. The Parameters of Request and Response apply to all List Get methods.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="level" type="string" required=true %}
+Read more at https://docs.labii.com/api/overview\#levels
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="sid" type="string" required=true %}
+Read more at https://docs.labii.com/api/overview\#url
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="serializer" type="string" required=true %}
+Read more at https://docs.labii.com/api/overview\#url
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="token" type="string" required=true %}
+Authentification token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Authentication credentials were not provided.
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=403 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+You do not have permission to perform this action.
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
 {% api-method method="get" host="" path="/organizations/organization/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Organization List
@@ -19,26 +77,6 @@ Get a list of organizations
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="level" type="string" required=true %}
-organization or user
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="sid" type="string" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="serializer" type="string" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
-{% api-method-headers %}
-{% api-method-parameter name="token" type="string" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -124,26 +162,6 @@ organization or user
         ...
     ]
 }
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-Authentication credentials were not provided.
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=403 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-You do not have permission to perform this action.
 ```
 {% endapi-method-response-example %}
 
@@ -598,26 +616,6 @@ Return the members of the organization
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="level" type="string" required=true %}
-organization
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="sid" type="string" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="serializer" type="string" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
-{% api-method-headers %}
-{% api-method-parameter name="token" type="string" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -649,26 +647,6 @@ organization
         ...
     ]
 }
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=401 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-Authentication credentials were not provided.
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=403 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-You do not have permission to perform this action.
 ```
 {% endapi-method-response-example %}
 
@@ -993,5 +971,802 @@ Wrong id - The provided sid is not correct
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="" path="/organizations/team/list/{level}/{sid}/{serializer}/" %}
+{% api-method-summary %}
+Team List
+{% endapi-method-summary %}
 
+{% api-method-description %}
+Get list of teams
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "name": "xxx",
+            "description": "xxx",
+            "is_archived": false,
+            "change_permission": true
+        },
+        ...
+    ]
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - The provided sid is not correct
+Wrong level: xxx. Acceptable levels is user, organization. - Wrong level provided
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="/organizations/team/list/{level}/{sid}/{serializer}/" %}
+{% api-method-summary %}
+Team List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Create a new team
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="level" type="string" required=true %}
+organization
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="sid" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="serializer" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="token" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="name" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="description" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="is\_archived" type="boolean" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="members" type="array" required=false %}
+array of organization member sid
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=201 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```yaml
+{
+    "sid": "xxx",
+    "name": "xxx",
+    "description": "xxx",
+    "members": [
+        "xxx",
+        "xxx"
+    ],
+    "is_archived": false,
+    "change_permission": true
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Authentication credentials were not provided.
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=403 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Team Detail
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="patch" host="" path="" %}
+{% api-method-summary %}
+Team Detail
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="delete" host="" path="" %}
+{% api-method-summary %}
+Team Detail
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="/organizations/organizationwidget/list/{level}/{sid}/{serializer}/" %}
+{% api-method-summary %}
+Organization Widget List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get a list of organization widgets
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "icon": "xxx",
+            "name": "xxx",
+            "notes": "xxx",
+            "price": "Free",
+            "show_in_menu": false,
+            "order": 1,
+            "change_permission": true
+        },
+        ...
+    ]
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Statement List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get a list of statements
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 2,
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "date_start": "2018-07-27",
+            "date_end": "2018-08-26",
+            "subscription_cost": "$200.0",
+            "ppu_cost": "$0",
+            "widget_usage_cost": "$0.00",
+            "record_storage_cost": "$0",
+            "file_storage_cost": "$0",
+            "total": "$200.0",
+            "change_permission": false
+        },
+        ...
+    ]
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="/organizations/backup/list/{level}/{sid}/{serializer}/" %}
+{% api-method-summary %}
+Backup List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Get a list of backup
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "name": "20180803031606.gz",
+            "description": "Data backup on 20180803031606",
+            "database_size": "47.0 MB",
+            "date_created": "2018-08-03T03:17:41.438432Z",
+            "change_permission": false
+        },
+        ...
+    ]
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Project List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Project Member List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Table List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Column List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Filter List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Row List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Cell List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Section List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Version List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Activity List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Widget List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 

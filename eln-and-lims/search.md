@@ -30,7 +30,7 @@ Filter function is table specific. To filter records, first click a table in the
 
 Once selected, a filter form will be opened. 
 
-![Filter Form](../.gitbook/assets/filter-form.png)
+![Filter add form](../.gitbook/assets/filters-add-labii-eln-lims.png)
 
 **To build a query:**
 
@@ -41,6 +41,8 @@ Once selected, a filter form will be opened.
 
 {% hint style="info" %}
 The **Name** and **Description** fields are optional. If the **Name** is provided, the filter will be saved and can be accessed from the filter dropdown menu.
+
+Uncheck **Show in Menu** to hide the filter from displaying in the dropdown menu.
 {% endhint %}
 
 {% hint style="info" %}

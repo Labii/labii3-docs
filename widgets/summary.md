@@ -125,6 +125,11 @@ Here is an overview of all widgets base on their functions.
   * [CGWUploadFile](cgw.md#cgwuploadfile)
   * [CGWJob](cgw.md#cgwjob)
 
+### Report
+
+* [Count](count.md)
+  * [Filter Summary](count.md#filter-summary)
+
 ### Column Widgets
 
 * Basic

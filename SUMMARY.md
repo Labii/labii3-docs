@@ -47,6 +47,7 @@
 * [Microplate](widgets/microplate.md)
 * [Plasmid](widgets/plasmid.md)
 * [CGW](widgets/cgw.md)
+* [Count](widgets/count.md)
 
 ## API
 

@@ -1290,7 +1290,7 @@ Wrong level - the provided level is not acceptable
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/organizations/statement/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Statement List
 {% endapi-method-summary %}
@@ -1418,13 +1418,13 @@ Wrong level - the provided level is not acceptable
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/projects/project/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Project List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of projects
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1442,21 +1442,53 @@ Project List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "name": "xxx",
+            "description": "xxx",
+            "date_start": "2017-11-16",
+            "date_end": null,
+            "is_archived": false,
+            "open_to_organization": false,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/projects/projectmember/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Project Member List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of members belong to a project
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1474,21 +1506,50 @@ Project Member List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "add_permission": false,
+    "results": [
+        {
+            "sid": "xxx",
+            "name": "xxx",
+            "permission": "Edit",
+            "is_archived": false,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/tables/table/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Table List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of tables
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1506,28 +1567,61 @@ Table List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 9,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "icon": "xxx",
+            "name_singular": "experiment",
+            "name_plural": "experiments",
+            "unique_code": "EP",
+            "table_type": "Document",
+            "order": 1,
+            "is_archived": false,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/tables/column/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Column List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get list of columns belong to a table
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="table\_\_sid" type="string" required=false %}
+The sid of a table
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -1538,21 +1632,55 @@ Column List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 7,
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "name": "xxx",
+            "description": "xxx",
+            "data_type": "Text",
+            "default_value": null,
+            "is_required": true,
+            "is_hidden": false,
+            "is_archived": true,
+            "order": 1,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/tables/filter/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Filter List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of filters
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1570,21 +1698,52 @@ Filter List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 10,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "name": "xxx",
+            "description": null,
+            "query": "name__icontains=2___[{\"field\": \"name\", \"expr\": \"icontains\", \"value\": \"2\"}]",
+            "users": [],
+            "is_archived": false,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/tables/row/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Row List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of rows
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1602,21 +1761,55 @@ Row List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 1,
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "369b0a40x29f50ejotyD",
+            "name": "EP107: test file table display (v8)___test file table display",
+            "rowdata_set": {
+                "date_start___FILO0a40x1cHMRW27bg": "2018-07-26"
+            },
+            "project___project__sid": "Test___ehkn0a40x1glqvAFKP",
+            "owner": "Yonggan Wu",
+            "is_template": false,
+            "open_to_organization": false,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/tables/cell/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Cell List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of cells of a row
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1634,21 +1827,37 @@ Cell List
 
 {% endapi-method-response-example-description %}
 
-```
-
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 17,
+    "count": 162,
+    "next": "...",
+    "previous": null,
+    "add_permission": false,
+    "results": [
+        {
+            "sid": "yBEH0a40x76ffAFKPUZ50",
+            "widget": "Text",
+            "record": "FL154: widgets-backlink-view  1.png",
+            "change_permission": true
+        },
+    ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/tables/section/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Section List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of sections of a row
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1666,21 +1875,52 @@ Section List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 5,
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "sid": "xxx",
+            "name": "Double Signature",
+            "widget___widget__sid": "xxx",
+            "description": "",
+            "is_archived": false,
+            "order": 1,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=302 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/tables/version/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Version List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a list of versions
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1698,21 +1938,59 @@ Version List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 183,
+    "count": 1829,
+    "next": "http://127.0.0.1:8000/v1/tables/version/list/organization/ehkn0a40x1glqvAFKP/list/?page=2",
+    "previous": null,
+    "add_permission": false,
+    "results": [
+        {
+            "sid": "xxx",
+            "hash": "VGd4bzZhZmVhMzBkOWZlMmViNTdmZDE3YzBhOWVlMTUwYmMzSEZMcQ__",
+            "previousHash": "WFFWbGRlMzViMmM1MzViZmM0MTdmYjU2N2FmZWFkYmFjOGJkWHFRSw__",
+            "version": 8,
+            "activity_message": "Updated data of Section (Files (No Preview)) from None to {\"files\": [{\"sid\": \"orux0a40x239qvAFKPUZ\", \"name\": \" FL143: FL154_ Small Workbook.xlsx (v3)\"}, {\"sid\": \"mpsv0a40x237otyDINSX\", \"name\": \" FL141: 2015-5-5 lib pool.xlsx (v3)\"}, {\"sid\": \"ehkn0a40x7dglqvAFKP\", \"name\": \" FL8: linkers and templates for subset-2.xlsx (v3)\"}]}",
+            "is_valid": true,
+            "updated_by": {
+                "sid": "xxx",
+                "first_name": "xxx",
+                "last_name": "xxx",
+                "email": "xxx@labii.com"
+            },
+            "date_created": "2018-07-27T07:10:57.279388Z",
+            "change_permission": false
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/activities/activity/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Activity List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Get a lis tof activities
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -1730,15 +2008,53 @@ Activity List
 
 {% endapi-method-response-example-description %}
 
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 232,
+    "count": 2311,
+    "next": null,
+    "previous": null,
+    "add_permission": true,
+    "results": [
+        {
+            "icon": "edit",
+            "user": {
+                "sid": "xxx",
+                "first_name": "xxx",
+                "last_name": "xxx",
+                "email": "xxx@labii.com"
+            },
+            "action": "Updated",
+            "field": "data of Section (Files (No Preview))",
+            "new_data": "{\"files\": [{\"sid\": \"xxx\", \"name\": \" FL143: xxx.xlsx (v3)\"}, {\"sid\": \"xxx\", \"name\": \" FL141: xxx.xlsx (v3)\"}, {\"sid\": \"xxx\", \"name\": \" FL8: xxx.xlsx (v3)\"}]}",
+            "target": "Files (No Preview)",
+            "model": "section",
+            "object_sid": "xxx",
+            "date_created": "2018-07-27T07:10:57.133353Z"
+        },
+        ...
+    ]
+}
 ```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=406 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+Wrong id - the provided sid is not correct
+Wrong level - the provided level is not acceptable
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="get" host="" path="/widgets/widget/list/{level}/{sid}/{serializer}/" %}
 {% api-method-summary %}
 Widget List
 {% endapi-method-summary %}
@@ -1762,8 +2078,34 @@ Widget List
 
 {% endapi-method-response-example-description %}
 
-```
-
+```yaml
+{
+    "page_size": 10,
+    "page_number": 1,
+    "page_count": 3,
+    "count": 22,
+    "next": null,
+    "previous": null,
+    "add_permission": false,
+    "results": [
+        {
+            "sid": "xxx",
+            "icon": "text_fields",
+            "name": "Plain Text",
+            "subscription_price": "Free",
+            "PPU_price": "Free",
+            "notes": "Add plain text, with markdown support",
+            "usecase": "xxx",
+            "related_to": "rich text",
+            "allow_multiple": true,
+            "is_readonly": false,
+            "is_public": true,
+            "component___status___WidgetActive": true,
+            "change_permission": true
+        },
+        ...
+    ]
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

@@ -116,6 +116,10 @@ Here is an overview of all widgets base on their functions.
 
 * [Microplate](microplate.md)
   * [96-Well Plate](microplate.md#overview)
+  * 12-Well Plate
+  * 24-Well Plate
+  * 48-Well Plate
+  * 96-Well Plate
   * [384-Well Plate](microplate.md#overview)
 * [Plasmid](plasmid.md)
   * Plasmid Viewer
@@ -130,7 +134,14 @@ Here is an overview of all widgets base on their functions.
 * [Count](count.md)
   * [Filter Summary](count.md#filter-summary)
 
-### Column Widgets
+### Reference Manage
+
+* Pubmed
+  * PMID
+  * Pubmed Abstract
+  * Pubmed Citation
+
+### Other Column Widgets
 
 * Basic
   * Text
@@ -143,6 +154,7 @@ Here is an overview of all widgets base on their functions.
   * ForeignKeys
   * Member
   * Members
+  * Secret
 
 
 

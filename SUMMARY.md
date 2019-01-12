@@ -48,6 +48,7 @@
 * [Plasmid](widgets/plasmid.md)
 * [CGW](widgets/cgw.md)
 * [Count](widgets/count.md)
+* [PubMed](widgets/pubmed.md)
 
 ## API
 

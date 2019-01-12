@@ -6,11 +6,11 @@ description: Tracking the usage of samples or reagents
 
 ## Overview
 
-Sample consumption is a record of sample or reagent usage in a biotech laboratory. To meet the requirement of GLP \(Good Laboratory Practice\) and FDA 21 FR Part 11, the sample consumption shall always be captured and recorded when performing a scientific experiment. On one hand, the record can guide other scientists to follow and reproduce the result. On the other hand, these records are critical to find the problems if anything go wrong. 
+Sample consumption is a record of sample or reagent usage in a biotech laboratory. To meet the requirement of GLP \(Good Laboratory Practice\) and FDA 21 FR Part 11, the sample consumption shall always be captured and recorded when performing a scientific experiment. On one hand, the record can guide other scientists to follow and reproduce the result. On the other hand, these records are critical to finding the problems if anything goes wrong. 
 
-Sample consumption tracking is challenging in ELN \(Electronic Lab Notebook\) and LIMS \(Laboratory Information Management System\). It requires the functionalities of both ELN and LIMS. All samples and reagent are stored in the LIMS, however, the activity of consumption is happened during the experimentation process. As such, this functionality is not available for almost all ELN or LIMS product in the market.
+Sample consumption tracking is challenging in ELN \(Electronic Lab Notebook\) and LIMS \(Laboratory Information Management System\). It requires the functionalities of both ELN and LIMS. All samples and reagent are stored in the LIMS, however, the act of consumption happens during the experimentation process. As such, this functionality is not available for almost all ELN or LIMS product in the market. 
 
-Labii ELN & LIMS has stepped in to combine the data management for both ELN and LIMS in one online repository. With the flexibility of data storage and extensibility of functionalities in Labii ELN & LIMS, the tracking of sample consumption is now possible and easy to document.
+Labii ELN & LIMS has stepped in to combine the data management for both ELN and LIMS in one online repository. With the flexibility of data storage and extensibility of functionalities in Labii ELN & LIMS, the tracking of sample consumption is now possible and easy to document. 
 
 This documentation covers the necessary steps to configure your Labii ELN & LIMS account to store the sample consumption details.
 

@@ -4,37 +4,51 @@ description: Create your first experiment in 4 steps
 
 # Quick Start
 
-All records \(experiment, protocol, sample, et.al\) at [Labii Electronic Lab Notebook \(ELN\) and Laboratory Information Management System \(LIMS\)](https://www.labii.com) can be added via clicking the `Add` button on the sidebar. 
+Welcome to the Quick Start Guide for [Labii ELN & LIMS](https://www.labii.com). Labii helps scientists document, manage, and interpret research data all in one online repository. This guide will walk you through how to create an experiment and add details.
 
-1. Click `Add` button at the sidebar. This will open a dropdown menu.
+**Create your first experiment in 4 easy steps:**
+
+1. Click the ‘**Add**’ button on the sidebar to open the dropdown menu options. All records including ‘experiment’, ‘protocol’, ‘sample’, and more can be added simply using this menu.
 
 ![Click Add button to add a record in Labii](.gitbook/assets/labii-eln-lims-quickstart-add-button.png)
 
-Select an table in the dropdown menu. To add an experiment note, choose **Experiment**.
+Select ‘**experiment**’ to add a new experiment note in this case. You have the option to change it to other terms that are familiar to you.
 
 ![Add menu](.gitbook/assets/labii-eln-lims-quickstart-add-menu.png)
 
-2. A form will be pop out once clicked. Fill in the form, click `Submit` button to submit. 
+2. Fill-in the required and optional information in the fields that appear in the Experiment form window. 
 
 ![Add experiment form](.gitbook/assets/labii-eln-lims-quickstart-add-experiment.png)
 
 {% hint style="info" %}
-Choose a template to create the record from an existing template. Check out [here](eln-and-lims/add-record.md#add-record-from-a-template) for more details.
+**NOTE**: repetitive experiments can be tagged as ‘templates’ and recalled for later use. Click ‘submit’ to create the new experiment
 {% endhint %}
 
-3. Once submit, a new record will be created and the page will redirect to the detail view of the new record. The new record contains one or more sections. 
+3. Once submitted, a new experiment record appears with multiple potential sections. The default sections can be configured by your administrators so that they will be added automatically. 
 
 ![The detail view of an experiment.](.gitbook/assets/labii-eln-lims-quickstart-detail-view.png)
 
-Click `Add` button between two sections to insert a section, or click the `Add` menu to add a section at the bottom. [Labii ELN & LIMS is extensible with a list of widgets](https://blog.labii.com/2018/01/extend-usability-of-your-labii-eln-via-widgets.html). If you need to add a table, select **Table** in the dropdown menu. More widgets can be found via clicking **More Widgets**.
+Click the \(+\) signs to insert a new section, or click the **Add** menu on top to add a section at the bottom of the record.
+
+**Labii’s Sections work like the apps in your smartphone, each widget presents one set of functions.**
 
 ![The widget list of Add menu](.gitbook/assets/labii-eln-lims-quickstart-widgets-menu.png)
 
-4. Once added a section, you can start documenting the results via clicking the **Edit** icon. 
+**For example:** 
+
+Select ‘Rich text’ to edit text just like a word document. Click the edit or pencil icon to modify the data in the section, and click the Submit button to save.
+
+Select ‘Table’ to add a new section similar to a spreadsheet table.
+
+Labii ELN & LIMS is expandable with a list of widgets. More can be found by clicking the ‘More Widgets’ option.
+
+{% hint style="info" %}
+**NOTE**: You do not need to repeat the above steps every time. You can [configure the default sections in the Settings](settings/tables.md#customize-default-sections) and every experiment created will include those sections automatically.
+{% endhint %}
+
+4. Once a new section has been added, you can start entering the content by clicking the Edit icon.
 
 ![Edit interface of Rich Text Widget](.gitbook/assets/labii-eln-lims-quickstart-widget-edit.png)
 
-{% hint style="info" %}
-You do not need to repeat the above steps all the time. You can [configure the default sections in the Settings](settings/tables.md) and every experiments created will come with the default sections.
-{% endhint %}
+
 

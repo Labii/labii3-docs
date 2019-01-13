@@ -75,4 +75,5 @@
 
 * [Track sample consumption](advanced-usage/track-sample-consumption.md)
 * [Goal management](advanced-usage/goal-management.md)
+* [Reference Management](advanced-usage/reference-management.md)
 

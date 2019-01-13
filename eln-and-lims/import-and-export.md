@@ -57,11 +57,13 @@ Here are some important notes to pay attention to:
 
 ## Export
 
-Click the **Menu** drop-down list and click **Export as TSV**. The files will download on your computer. 
+Labii support two types of export. 
 
-![](../.gitbook/assets/screen-shot-2018-08-28-at-11.44.42-pm.png)
+**Export Current Page:** Download the current page as a tsv file.
 
-{% hint style="info" %}
-The AdBlock might block the downloading. Please disable your AdBlock if the download does not happen.
-{% endhint %}
+**Export All Pages:** Export all records as a json file. [You can use this program to convert the json file into tsv file.](https://codebeautify.org/json-to-tsv-converter)
+
+![](../.gitbook/assets/export-menu-labii-eln-lims.png)
+
+
 

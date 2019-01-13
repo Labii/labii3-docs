@@ -14,7 +14,7 @@ While servicing to document the new scientific data, [Labii ELN & LIMS](https://
 
 | Widget | Type | Description |
 | :--- | :--- | :--- |
-| PMID | Column | PMID of a paper |
+| PMID | Column | Store PMID and sync other fields with PubMed |
 | PubMed Abstract | Section | Display the abstract of a PMID |
 | PubMed Citation | Section | Display summary of PMIDs |
 

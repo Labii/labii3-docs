@@ -6,6 +6,8 @@ description: Create your first experiment in 4 steps
 
 Welcome to the Quick Start Guide for [Labii ELN & LIMS](https://www.labii.com). Labii helps scientists document, manage, and interpret research data all in one online repository. This guide will walk you through how to create an experiment and add details.
 
+{% embed url="https://youtu.be/vygX-lusdU8" %}
+
 **Create your first experiment in 4 easy steps:**
 
 1. Click the ‘**Add**’ button on the sidebar to open the dropdown menu options. All records including ‘experiment’, ‘protocol’, ‘sample’, and more can be added simply using this menu.

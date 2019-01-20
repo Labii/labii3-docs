@@ -25,6 +25,8 @@ The signature at Labii contains the information of **the record, user, date stam
 
 ### Signing process
 
+![Signature signing process](../.gitbook/assets/signature-signing-labii-eln-lims.png)
+
 1. The first signer signed the document. The document will be locked from editing, and the second signer receive signature requirement via email.
 2. The second signer has the option to sign or reject. 
    1. If signed, the first signer will receive a confirmation email. The third signer will receive a signature request email.
@@ -107,5 +109,19 @@ If you have the same co-signers all the time \(or most of the time\), there is a
 
 [Click the "**Menu**" button and then choose "**Save as my default**"](../eln-and-lims/detail-view.md#save-default-section-data).  Please check the link for more details.
 
+## Make changes after signed
 
+Once signed, the record is locked from editing. 
+
+### Changes to the record
+
+If not all signers are signed, ask the next signer to [reject the signing](signature.md#reject-signature). Once rejected, the record will go back to editing mode. Further changes can be made.
+
+If all signers have signed, the only way is to [duplicate the record](../eln-and-lims/detail-view.md#duplicate), make necessary changes, and resign the record.
+
+### Changes to the signers
+
+No changes can be made to signed signers. Unsigned signers can be edited or deleted. 
+
+More signers can be added.
 
